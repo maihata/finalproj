@@ -56,7 +56,7 @@ race_us_chart <- read_csv("/Users/hata/Desktop/finalproj/Data/race_us_chart.csv"
 print(race_us_chart)
 ```
 
-This may look like a simple visualization, but it took a lot of work to clean up the data to get here! I used many functions for data wrangling, including: `filter()`, `select()`, `mutate()`, `bind_rows()`, `mutate()`, `group_by()`, `pivot_longer()`, `pivot_wider()`, and `summarize()`. Just a few months ago, I was completely new to R, RStudio, and GitHub.
+This may look like a simple visualization, but just a few months ago, I was completely new to R, RStudio, and GitHub. It took a lot of work to clean up the data to get here! I used many functions for data wrangling, including `filter()`, `select()`, `mutate()`, `bind_rows()`, `mutate()`, `group_by()`, `pivot_longer()`, `pivot_wider()`, and `summarize()`.
 
 ```{r include=FALSE}
 
@@ -81,4 +81,4 @@ kable(race_us_chart,
 
 ```
 
-I will build on this simple kable table to start analyzing the data more deeply. But first, I will show how disparities appear across the United States, where racially marginalized children are often underserved in Early Intervention, unlike in K-12 special education.
+I will build on this simple `kable()` table to start analyzing the data more deeply. But first, I will show how disparities appear across the United States, where racially marginalized children are often underserved in Early Intervention, unlike in K-12 special education.
