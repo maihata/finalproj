@@ -15,3 +15,9 @@ In this data visualization and storytelling portfolio, I conducted a secondary d
 ## Datasets
 
 Between 2013 and 2021, 3,310,559 infants and toddlers with disabilities and/or developmental delays received and exited Early Intervention (EI) services nationwide (U.S. Department of Education \[DOE\], 2025). In Oregon, 29,945 infants and toddlers received EI services during that time (DOE, 2025). In the following sections, I'll explore the data for all children who were eligible for EI services and stopped receiving them between 2013 and 2022, using visualizations and storytelling to highlight key insights.
+
+### Going forward 
+
+For my dissertation, I will examine how infants and toddlers from different racial groups are represented in Early Intervention (EI) compared to census data. I will also conduct chi-square analyses with adjusted standardized residuals to explore exit patterns in ODE data based on children's home language(s). Additionally, I will share extensive quantitative data to amplify the voices of the families highlighted in my literature review.
+
+Thank you for reading, and feel free to stay connected through [my LinkedIn page](https://www.linkedin.com/in/maikohata/)!
