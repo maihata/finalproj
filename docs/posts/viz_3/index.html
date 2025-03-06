@@ -188,7 +188,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Here, I performed a chi-square test and used standardized residuals to interpret the results. I visualized the findings with <code>corrplot()</code>, one of my favorite packages.</p>
 <p>Chi-square test is used to determine if the distribution of a sample is different from what we would expect by chance (Agresti, 2013). It helps researchers understand whether the differences between observed and expected counts are likely due to random variation (Morgan et al., 2020). Standardized residuals provide additional insight by showing how much the observed counts differ from the expected ones, considering the influence of independent variables on dependent variables (Chatterjee, 2011).</p>
 <p>This is when I truly understood the power and flexibility of R, as it allowed me to present the story of the data through clear and intuitive visualizations.</p>
-<p>Do you notice how group 2 is overrepresented and group 7 is underrepresented in Attempts to Contact Unsuccessful (“Disqualification”)? Also, group 7 is noticeably underrepresented in Part B Eligibility Not Determined (“Not Determined”), but the same group is overrepresented in Complete or Not Eligible (“Not Eligible”). Let’s take a look at who these groups are.</p>
+<p>Do you notice how group 2 is over-represented and group 7 is under-represented in Attempts to Contact Unsuccessful (“Disqualification”)? Also, group 7 is noticeably underrepresented in Part B Eligibility Not Determined (“Not Determined”), but the same group is over-represented in Complete or Not Eligible (“Not Eligible”). Let’s see who these groups are.</p>
 <p>Here is my first attempt. Even though it’s a bit messy, I was really impressed that I could run this analysis and create the visualization so easily.</p>
 <div class="cell">
 <details class="code-fold">
@@ -238,16 +238,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>I finally settled on this version after moving the label numbers a bit further out to make them easier to read. I also reordered the exit categories alphabetically at the top, which makes the chart look a bit different from my original attempt.</p>
+<p>I finally settled on this version, where I:</p>
+<ul>
+<li><p>Changed the letter color to black as the red was unnecessarily alarming</p></li>
+<li><p>Moved the label numbers further out for easier reading</p></li>
+<li><p>Reordered the exit categories alphabetically.</p></li>
+</ul>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">corrplot</span>(chi_results<span class="sc">$</span>stdres, </span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>         <span class="at">is.cor =</span> <span class="cn">FALSE</span>, </span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">tl.cex =</span> <span class="fl">0.8</span>, </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">cl.cex =</span> <span class="fl">0.7</span>,     </span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>         <span class="at">cl.offset =</span> <span class="dv">1</span>,    </span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>         <span class="at">cl.ratio =</span> <span class="fl">0.2</span>)    </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">tl.col =</span> <span class="st">"black"</span>, </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>         <span class="at">cl.cex =</span> <span class="fl">0.7</span>,     </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>         <span class="at">cl.offset =</span> <span class="dv">1</span>,    </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>         <span class="at">cl.ratio =</span> <span class="fl">0.2</span>)    </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div>

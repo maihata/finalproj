@@ -187,7 +187,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is the first step in my visualization journey. I created a simple kable table using data from the Office of Special Education Programs (<a href="https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c">OSEP</a>).</p>
+<p>This is the first step in my visualization series. I created a simple kable table using data from the Office of Special Education Programs (<a href="https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c">OSEP</a>).</p>
 <p>To give some background, my dissertation will focus on equitable access to <a href="https://www.cdc.gov/ncbddd/actearly/parents/states.html">Early Intervention (EI)</a> for different groups. Some of the visualizations in this blog will be adjusted to allow for stronger statistical analysis, such as by incorporating census data.</p>
 <p>Here’s what my dataset looked like after I finished wrangling the data:</p>
 <div class="cell">
@@ -209,7 +209,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 # ℹ 2 more variables: `Part B Eligible` &lt;dbl&gt;, Withdrawn &lt;dbl&gt;</code></pre>
 </div>
 </div>
-<p>This may look like a simple visualization, but just a few months ago, I was completely new to R, RStudio, and GitHub. It took a lot of work to clean up the data to get here! I used many functions for data wrangling, including <code>filter()</code>, <code>select()</code>, <code>mutate()</code>, <code>bind_rows()</code>, <code>mutate()</code>, <code>group_by()</code>, <code>pivot_longer()</code>, <code>pivot_wider()</code>, and <code>summarize()</code>.</p>
+<p>This may look simple, but just a few months ago, I was completely new to R, RStudio, and GitHub. I used many functions for data wrangling, including <code>filter()</code>, <code>select()</code>, <code>mutate()</code>, <code>bind_rows()</code>, <code>mutate()</code>, <code>group_by()</code>, <code>pivot_longer()</code>, <code>pivot_wider()</code>, and <code>summarize()</code>.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -306,7 +306,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </div>
 </div>
-<p>I will build on this simple <code>kable()</code> table to start analyzing the data more deeply. But first, I will show how disparities appear across the United States, where racially marginalized children are often underserved in Early Intervention, unlike in K-12 special education.</p>
+<p>I will build on this simple table to start analyzing the data more deeply. But first, I will show how disparities appear across the United States, where racially marginalized children are often under-served in EI, unlike in K-12 special education.</p>
 
 
 

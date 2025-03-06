@@ -187,7 +187,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is the second part of my data visualization journey. For this, I used the same dataset as in the previous post, which showed racial representation in Early Intervention across the country. I compared that data to racial representation in Oregon, using information from the same <a href="https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c">OSEP website</a>. I combined data from 2013 to 2022 to get the most statistical power for later analysis.</p>
+<p>This is the second part of my data visualization journey. For this, I used the same dataset as in the previous post, which showed racial representation in Early Intervention (EI) across the U.S. I compared that data to racial representation in Oregon, using information from the same <a href="https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c">OSEP website</a>. I combined data from 2013 to 2022 to get the most statistical power for later analysis.</p>
 <p>First, I created a bar chart using <code>ggplot()</code> with the <code>geom_bar()</code> function.</p>
 <div class="cell">
 <details class="code-fold">
@@ -211,7 +211,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Here is an example of how labeling can be completely inappropriate. However, I appreciate using the viridis color palette with <code>scale_fill_viridis_d()</code>, as it helps make colors more accessible for people with color perception differences. I also included labels for the different groups to show the color scheme more clearly.</p>
+<p>Here is an example of how labeling can be completely inappropriate. However, I appreciate using the viridis color palette with <code>scale_fill_viridis_d()</code>, as it helps make colors more accessible for people with color perception differences.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -237,7 +237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>I really enjoy how easy it is to play with different types of plots that <code>ggplot()</code> offers - all it takes is just minor changes to the codes.</p>
+<p>I really enjoy how easy it is to play with different types of plots that <code>ggplot()</code> offers.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -293,7 +293,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>After making adjustments to show the data more clearly and accurately, here it is—the final version that shows the data best! Flipping the X and Y axes helps readers understand the categories more easily, and the data labels make it clearer to see the exact differences between the national data and Oregon’s data. I also used the Okabe-Ito color palette, assigning specific colors for both the national data and Oregon’s data to maintain consistency in future visualizations.</p>
+<p>After making adjustments to show the data more clearly and accurately, here is the final version that shows the data best! Flipping the X and Y axes helps readers understand the categories more easily, and the data labels make it clearer to see the exact differences between the national data and Oregon’s data. I also assigned specific colors from the <code>viridis</code> color pallette for the national and Oregon’s data to maintain consistency in future visualizations.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>

@@ -6,7 +6,7 @@ categories: [visualization, code, analysis]
 image: "plot_cc_2.jpg"
 ---
 
-This is the second part of my data visualization journey. For this, I used the same dataset as in the previous post, which showed racial representation in Early Intervention across the country. I compared that data to racial representation in Oregon, using information from the same [OSEP website](https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c). I combined data from 2013 to 2022 to get the most statistical power for later analysis.
+This is the second part of my data visualization journey. For this, I used the same dataset as in the previous post, which showed racial representation in Early Intervention (EI) across the U.S. I compared that data to racial representation in Oregon, using information from the same [OSEP website](https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c). I combined data from 2013 to 2022 to get the most statistical power for later analysis.
 
 ```{r include=FALSE}
 library(tidyverse)
@@ -102,7 +102,7 @@ ggplot(childcount1920USOR_long,
   theme_minimal() 
 ```
 
-Here is an example of how labeling can be completely inappropriate. However, I appreciate using the viridis color palette with `scale_fill_viridis_d()`, as it helps make colors more accessible for people with color perception differences. I also included labels for the different groups to show the color scheme more clearly.
+Here is an example of how labeling can be completely inappropriate. However, I appreciate using the viridis color palette with `scale_fill_viridis_d()`, as it helps make colors more accessible for people with color perception differences.
 
 ```{r}
 ggplot(childcount1920USOR_long, aes(x = state, y = percent, fill = race)) +
@@ -120,7 +120,7 @@ ggplot(childcount1920USOR_long, aes(x = state, y = percent, fill = race)) +
   theme_minimal()
 ```
 
-I really enjoy how easy it is to play with different types of plots that `ggplot()` offers - all it takes is just minor changes to the codes.
+I really enjoy how easy it is to play with different types of plots that `ggplot()` offers.
 
 ```{r}
 ggplot(childcount1920USOR_long, aes(x = state, y = percent, fill = race)) +
@@ -160,7 +160,7 @@ ggplot(childcount1920USOR_long,
   theme(legend.position = "bottom")  
 ```
 
-After making adjustments to show the data more clearly and accurately, here it is—the final version that shows the data best! Flipping the X and Y axes helps readers understand the categories more easily, and the data labels make it clearer to see the exact differences between the national data and Oregon's data. I also used the Okabe-Ito color palette, assigning specific colors for both the national data and Oregon's data to maintain consistency in future visualizations.
+After making adjustments to show the data more clearly and accurately, here is the final version that shows the data best! Flipping the X and Y axes helps readers understand the categories more easily, and the data labels make it clearer to see the exact differences between the national data and Oregon's data. I also assigned specific colors from the `viridis` color pallette for the national and Oregon's data to maintain consistency in future visualizations.
 
 ```{r include=FALSE}
 #okabe_ito_colors <- c(
