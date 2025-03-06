@@ -3,7 +3,7 @@ title: "Visualization 2: ggplot geom_bar()"
 author: "Maiko Hata"
 date: "2025-02-27"
 categories: [visualization, code, analysis]
-image: "ggplot_geom_bar_cc.png"
+image: "plot_cc_2.jpg"
 ---
 
 This is the second part of my data visualization journey. For this, I used the same dataset as in the previous post, which showed racial representation in Early Intervention across the country. I compared that data to racial representation in Oregon, using information from the same [OSEP website](https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c). I combined data from 2013 to 2022 to get the most statistical power for later analysis.
@@ -267,7 +267,7 @@ ggplot(childcount1920USOR_long,
     labels = percent_format(scale = 1), 
     expand = expansion(mult = c(0, 0.05))) +
   labs(
-    title = "Racial Representation of Children in EI",
+    title = "Representations in EI",
     x = "Percentage",
     y = "Race",
     fill = NULL) +
