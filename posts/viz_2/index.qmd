@@ -257,8 +257,6 @@ viridis_colors <- c(
 ```{r}
 childcount1920USOR_long$race <- factor(childcount1920USOR_long$race, levels = sort(unique(childcount1920USOR_long$race)))
 childcount1920USOR_long$race <- forcats::fct_rev(childcount1920USOR_long$race)
-
-
 ```
 
 ```{r}
@@ -292,5 +290,4 @@ ggplot(childcount1920USOR_long,
   theme(
     legend.position = "bottom"
   )
-
 ```

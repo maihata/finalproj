@@ -1,5 +1,5 @@
 ---
-title: "finalproj"
+title: "Maiko's Data Visualization Portfolio"
 listing:
   contents: posts
   sort: "date desc"
