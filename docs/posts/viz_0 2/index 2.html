@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Maiko Hata">
+<meta name="dcterms.date" content="2025-02-24">
 
-<title>Maiko’s Data Visualization Portfolio – Maiko's blog</title>
+<title>Data Visualizations for Educational Equity – Maiko’s blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-530bf8e59df25186f8bffdc63bad3503.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-530bf8e59df25186f8bffdc63bad3503.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Maiko’s blog</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -167,272 +109,70 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Maiko’s Data Visualization Portfolio</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Data Visualizations for Educational Equity</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+                <div class="quarto-category">code</div>
+                <div class="quarto-category">analysis</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Maiko Hata </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 24, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZGF0YSUyMHZpc3VhbGl6YXRpb24=">data visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dmlzdWFsaXphdGlvbg==">visualization <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="data-visualization-for-equitable-ei-access" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization-for-equitable-ei-access">Data Visualization for equitable EI access</h2>
+<p>In this data visualization and storytelling portfolio, I conducted a secondary data analysis of extant data. These data were published by the <a href="https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c">Office of Special Education Programs (OSEP)</a> and <a href="https://www.oregon.gov/ode/reports-and-data/SpEdReports/Pages/default.aspx">Oregon Department of Education (ODE)</a>. OSEP collects annual data on children, aged 0 to 2, who have stopped receiving <a href="https://www.cdc.gov/ncbddd/actearly/parents/states.html">Early Intervention (EI)</a> services, with information categorized by gender, race, and ethnicity.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="family_of_four.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Family of four playing on the floor looking at each other" width="350"></p>
+</figure>
+</div>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<p>Between 2013 and 2021, 3,310,559 infants and toddlers with disabilities and/or developmental delays received and exited Early Intervention (EI) services nationwide (U.S. Department of Education [DOE], 2025). In Oregon, 29,945 infants and toddlers received EI services during that time (DOE, 2025). In the following sections, I’ll explore the data for all children who were eligible for EI services and stopped receiving them between 2013 and 2022, using visualizations and storytelling to highlight key insights.</p>
+<section id="going-forward" class="level3">
+<h3 class="anchored" data-anchor-id="going-forward">Going forward</h3>
+<p>For my dissertation, I will examine how infants and toddlers from different racial groups are represented in Early Intervention (EI) compared to census data. I will also conduct chi-square analyses with adjusted standardized residuals to explore exit patterns in ODE data based on children’s home language(s). Additionally, I will share extensive quantitative data to amplify the voices of the families highlighted in my literature review.</p>
+<p>Thank you for reading, and feel free to stay connected through <a href="https://www.linkedin.com/in/maikohata/">my LinkedIn page</a>!</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740988800000" data-listing-file-modified-sort="1741304493953" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1219">
-<div class="thumbnail">
-<p><a href="./posts/viz_4/index.html" class="no-external"></a></p><a href="./posts/viz_4/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/viz_4/or_us_white_ci_timesnewroman.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/viz_4/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/viz_4/index.html" class="no-external">Visualization 4: oddsratio()</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/viz_4/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHZpc3VhbGl6YXRpb24='); return false;">
-data visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/viz_4/index.html" class="no-external">Here, the data storytelling really comes together. Based on the previous analysis and visualization of the chi-square results with standardized residuals, I decided to run…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/viz_4/index.html" class="no-external">
-<div class="listing-date">
-Mar 3, 2025
-</div>
-<div class="listing-author">
-Maiko Hata
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="dmlzdWFsaXphdGlvbiUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1740729600000" data-listing-file-modified-sort="1741303913930" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="640">
-<div class="thumbnail">
-<p><a href="./posts/viz_3/index.html" class="no-external"></a></p><a href="./posts/viz_3/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/viz_3/race and exit corrplot.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/viz_3/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/viz_3/index.html" class="no-external">Visualization 3: corrplot()</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/viz_3/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">
-visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/viz_3/index.html" class="no-external">Here, I performed a chi-square test and used standardized residuals to interpret the results. I visualized the findings with <code>corrplot()</code>, one of my favorite packages.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/viz_3/index.html" class="no-external">
-<div class="listing-date">
-Feb 28, 2025
-</div>
-<div class="listing-author">
-Maiko Hata
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="dmlzdWFsaXphdGlvbiUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1740643200000" data-listing-file-modified-sort="1741303473193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1655">
-<div class="thumbnail">
-<p><a href="./posts/viz_2/index.html" class="no-external"></a></p><a href="./posts/viz_2/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/viz_2/plot_cc_2.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/viz_2/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/viz_2/index.html" class="no-external">Visualization 2: ggplot geom_bar()</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/viz_2/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">
-visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/viz_2/index.html" class="no-external">This is the second part of my data visualization journey. For this, I used the same dataset as in the previous post, which showed racial representation in Early Intervention…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/viz_2/index.html" class="no-external">
-<div class="listing-date">
-Feb 27, 2025
-</div>
-<div class="listing-author">
-Maiko Hata
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="dmlzdWFsaXphdGlvbiUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1740556800000" data-listing-file-modified-sort="1741303287478" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
-<div class="thumbnail">
-<p><a href="./posts/viz_1/index.html" class="no-external"></a></p><a href="./posts/viz_1/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/viz_1/kable.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/viz_1/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/viz_1/index.html" class="no-external">Visualization 1: kable()</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/viz_1/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">
-visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/viz_1/index.html" class="no-external">This is the first step in my visualization series. I created a simple kable table using data from the Office of Special Education Programs (OSEP).</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/viz_1/index.html" class="no-external">
-<div class="listing-date">
-Feb 26, 2025
-</div>
-<div class="listing-author">
-Maiko Hata
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1740384000000" data-listing-file-modified-sort="1741305086573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<div class="thumbnail">
-<p><a href="./posts/viz_0/index.html" class="no-external"></a></p><a href="./posts/viz_0/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/viz_0/family_of_four.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/viz_0/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/viz_0/index.html" class="no-external">Data Visualizations for Educational Equity</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/viz_0/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/viz_0/index.html" class="no-external">In this data visualization and storytelling portfolio, I conducted a secondary data analysis of extant data. These data were published by the Office of Special Education…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/viz_0/index.html" class="no-external">
-<div class="listing-date">
-Feb 24, 2025
-</div>
-<div class="listing-author">
-Maiko Hata
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="bmV3cw==" data-listing-date-sort="1740297600000" data-listing-file-modified-sort="1741304902717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="images/uo.jpg" alt="University of Oregon in spring"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To Maiko’s Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">Welcome to my blog &amp; こんにちは! I created this blog as part of my Educational Data Science specialization at the University of Oregon, where I am a doctorate student in…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Feb 23, 2025
-</div>
-<div class="listing-author">
-Maiko Hata
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
