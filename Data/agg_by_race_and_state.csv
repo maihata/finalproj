@@ -1,0 +1,15 @@
+"race","area","exit_total","withdrawal_by_parent","attempts_to_contact_unsuccessful","moved_out_of_state","part_b_eligible_exiting_part_c","complete_or_not_eligible","part_b_eligibility_not_determined"
+"AM","Oregon",267,40,32,15,137,42,0
+"AM","US and Outlying Areas",23783,3155,3262,1045,9035,4395,2480
+"AS","Oregon",1055,219,56,136,545,89,8
+"AS","US and Outlying Areas",146252,21737,6559,8031,52840,26712,22848
+"BL","Oregon",731,123,72,56,425,50,2
+"BL","US and Outlying Areas",415873,48699,56155,14648,139607,65353,69687
+"HI","Oregon",6997,907,697,281,4302,723,78
+"HI","US and Outlying Areas",905971,109469,79951,26699,318999,165654,173416
+"MU","Oregon",1432,263,84,90,836,142,13
+"MU","US and Outlying Areas",135841,19195,11676,6477,50699,28996,15813
+"PI","Oregon",125,20,13,8,75,6,2
+"PI","US and Outlying Areas",10654,1467,977,559,3587,1911,1532
+"WH","Oregon",19338,3219,1552,1063,10797,2487,165
+"WH","US and Outlying Areas",1672185,242489,99922,65399,623690,402568,178843
