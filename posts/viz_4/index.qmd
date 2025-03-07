@@ -1,10 +1,9 @@
 ---
 title: "Visualization 4: oddsratio()"
-description: "Exploring disparities in dismissals in EI"
 author: "Maiko Hata"
 date: "2025-03-03"
 categories: [data visualization, code, analysis]
-image: "or_us_against_white.jpg"
+image: "or_us_white_ci_timesnewroman.png"
 ---
 
 Here, the data storytelling really comes together. Based on the previous analysis and visualization of the chi-square results with standardized residuals, I decided to run odds ratios for some of the most notable cells that showed statistically significant disparities.
