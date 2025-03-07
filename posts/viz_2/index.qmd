@@ -1,0 +1,284 @@
+---
+title: "Visualization 2: ggplot geom_bar()"
+author: "Maiko Hata"
+date: "2025-02-27"
+categories: [visualization, code, analysis]
+image: "plot_cc_2.jpg"
+---
+
+This is the second part of my data visualization journey. For this, I used the same dataset as in the previous post, which showed racial representation in Early Intervention (EI) across the U.S. I compared that data to racial representation in Oregon, using information from the same [OSEP website](https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c). I combined data from 2013 to 2022 to get the most statistical power for later analysis.
+
+```{r include=FALSE}
+library(tidyverse)
+library(here)
+library(rio)
+library(knitr)
+library(gt)
+library(DT)
+library(reactable)
+library(gtsummary)
+library(kableExtra)
+library(tinytex)
+library(janitor)
+library(tidylog)
+library(sjPlot)
+library(lme4)
+library(tibble)
+library(dplyr)
+library(epitools)
+library(readxl)
+library(pwr)
+library(rcompanion)
+library(grateful)
+library(distill)
+library(readxl)
+library(scales)
+library(tidyr)
+library(patchwork)
+library(corrplot)
+library(distill)
+library(tibble)
+library(rcartocolor)
+library(ggplot2)
+library(quarto)
+library(ggsci)
+library(forcats)
+```
+
+```{r include=FALSE}
+
+cc_transposed <- read_csv("/Users/hata/Desktop/finalproj/Data/cc_transposed.csv")
+```
+
+```{r include=FALSE}
+
+kable(cc_transposed, 
+      col.names = NULL, 
+      caption = "Child Count (US \\& Oregon)") %>% 
+  column_spec(1, width = "8cm") %>% 
+  kable_styling(bootstrap_options = "striped", 
+                full_width = FALSE, 
+                position = "left", 
+                font_size = 10.5, 
+                latex_options = "scale_down")
+```
+
+```{r include=FALSE}
+
+childcount1920USOR_long <- read_csv("/Users/hata/Desktop/finalproj/Data/childcount1920USOR_long.csv")
+```
+
+```{r include=FALSE}
+
+childcount1920USOR_long <- childcount1920USOR_long %>%
+  mutate(race = recode(race,
+         "white_percent" = "White",
+         "black_or_african_american_percent" = "Black/African American",
+         "asian_percent" = "Asian",
+         "hispanic_latino_percent" = "Hispanic/Latino",
+         "american_indian_or_alaska_native_percent" = "American Indian/Alaska Native",
+         "native_hawaiian_or_pacific_islander_percent" = "Native Hawaiian/Other Pacific Islander",
+         "two_or_more_races_percent" = "Two or More Races"))
+```
+
+First, I created a bar chart using `ggplot()` with the `geom_bar()` function.
+
+```{r include=FALSE}
+
+childcount1920USOR_long <- read_csv("/Users/hata/Desktop/finalproj/Data/childcount1920USOR_long.csv")
+
+```
+
+```{r}
+ggplot(childcount1920USOR_long, 
+       aes(x = state, y = percent, fill = race)) +
+  geom_bar(stat = "identity") + 
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) + 
+  scale_fill_discrete(labels = c("American Indian")) +
+  labs(title = "Percentage of Child Count by Race in US & Oregon",
+       x = "State",
+       y = "Percentage",
+       fill = "Race") +
+  theme_minimal() 
+```
+
+Here is an example of how labeling can be completely inappropriate. However, I appreciate using the viridis color palette with `scale_fill_viridis_d()`, as it helps make colors more accessible for people with color perception differences.
+
+```{r}
+ggplot(childcount1920USOR_long, aes(x = state, y = percent, fill = race)) +
+  geom_bar(stat = "identity") + 
+  scale_fill_viridis_d() +  
+  scale_y_continuous(labels = percent_format(scale = 1)) +
+  labs(title = "Percentage of Child Count by Race in US & Oregon",
+       x = "State",
+       y = "Percentage",
+       fill = "Race") +
+  geom_text(aes(label = race), 
+            position = position_stack(vjust = 0.5), 
+            color = "black", 
+            size = 4) +
+  theme_minimal()
+```
+
+I really enjoy how easy it is to play with different types of plots that `ggplot()` offers.
+
+```{r}
+ggplot(childcount1920USOR_long, aes(x = state, y = percent, fill = race)) +
+  geom_bar(stat = "identity", position = "dodge") +  
+  scale_fill_viridis_d() +  
+  scale_y_continuous(labels = percent_format(scale = 1)) +  
+  labs(title = "Percentage of Child Count by Race in US & Oregon",
+       x = "State",
+       y = "Percentage",
+       fill = "Race") +
+  theme_minimal() 
+```
+
+So, I kept experimenting.
+
+```{r}
+ggplot(childcount1920USOR_long, 
+       aes(x = race, 
+           y = percent, 
+           fill = state)) +
+  geom_bar(stat = "identity", 
+           position = position_dodge(width = 0.7)) +  
+  scale_fill_viridis_d() +  
+  scale_y_continuous(
+    labels = percent_format(scale = 1), 
+    expand = expansion(mult = c(0, 0.05))) +
+  labs(title = "Percentage of Child Count by Race in US & Oregon",
+       x = "Race",
+       y = "Percentage",
+       fill = "State") +
+  geom_text(aes(label = scales::percent(percent / 100, accuracy = 0.1)), 
+            position = position_dodge(width = 0.7), 
+            vjust = -0.5,  
+            color = "black", 
+            size = 4) +
+  theme_minimal(base_size = 14) +
+  theme(legend.position = "bottom")  
+```
+
+After making adjustments to show the data more clearly and accurately, here is the final version that shows the data best! Flipping the X and Y axes helps readers understand the categories more easily, and the data labels make it clearer to see the exact differences between the national data and Oregon's data. I also assigned specific colors from the `viridis` color pallette for the national and Oregon's data to maintain consistency in future visualizations.
+
+```{r include=FALSE}
+#okabe_ito_colors <- c(
+#  "US and Outlying Areas" = pal_aaas("default")(10)[6],      
+#  "Oregon" = pal_aaas("default")(10)[3])
+```
+
+```{r include=FALSE}
+
+#ggplot(childcount1920USOR_long, 
+#       aes(x = percent, 
+#           y = reorder(race, percent),  
+#           fill = state)) +  
+#  geom_bar(stat = "identity", 
+#           position = position_dodge(width = 0.7)) +  
+#  scale_fill_manual(
+#    values = okabe_ito_colors, 
+#    breaks = c("US and Outlying Areas", "Oregon"),         
+#    labels = c("US and Outlying Areas", "Oregon")          
+#  ) +
+#  scale_x_continuous(
+#    labels = scales::percent_format(scale = 1), 
+#    expand = expansion(mult = c(0, 0.05))) +
+#  labs(
+#    title = "Percentage of Child Count by Race in US & Oregon",
+#    x = "Percentage",
+#    y = "Race",
+#    fill = NULL) +
+#  geom_text(aes(
+#    label = scales::percent(percent / 100, accuracy = 0.1)),
+#    position = position_dodge(width = 0.7), 
+#    hjust = -0.2,  
+#    color = "black", 
+#    size = 4) +  
+#  theme_minimal(base_size = 14) +
+#  theme(legend.position = "bottom")
+```
+
+```{r include=FALSE}
+# viridis_colors <- c(
+#  "US and Outlying Areas" = "#4B3F72",
+#  "Oregon" = "#B5D300")
+```
+
+```{r include=FALSE}
+#ggplot(childcount1920USOR_long, 
+#       aes(x = fct_relevel(race, sort),  
+#           y = percent, 
+#           fill = state)) + 
+#  geom_bar(stat = "identity", 
+#           position = position_dodge(width = 0.7)) +  
+#  coord_flip() +
+#  scale_fill_manual(
+#    values = viridis_colors, 
+#    breaks = c("US and Outlying Areas", "Oregon"),         
+#    labels = c("US and Outlying Areas", "Oregon")) +
+#  scale_y_continuous(
+#    labels = scales::percent_format(scale = 1), 
+#    expand = expansion(mult = c(0, 0.05))) +
+#  labs(
+#    title = "Percentage of Child Count by Race in US & Oregon",
+#    x = "Race",
+#   y = "Percentage",
+#    fill = NULL) +
+#  geom_text(aes(
+#    label = scales::percent(percent / 100, accuracy = 0.1)), 
+#    position = position_dodge(width = 0.7), 
+#    hjust = -0.2,  
+#    color = "black", 
+#    size = 4) +  
+#  theme_minimal(base_size = 14) +
+#  theme(legend.position = "bottom")
+```
+
+```{r include=FALSE}
+# childcount1920USOR_long$race <- factor(childcount1920USOR_long$race, levels = sort(unique(childcount1920USOR_long$race)))
+# childcount1920USOR_long$race <- forcats::fct_rev(childcount1920USOR_long$race)
+```
+
+```{r}
+viridis_colors <- c(
+  "Oregon" = "#7ad151",               
+  "US and Outlying Areas" = "#414487")
+```
+
+```{r}
+childcount1920USOR_long$race <- factor(childcount1920USOR_long$race, levels = sort(unique(childcount1920USOR_long$race)))
+childcount1920USOR_long$race <- forcats::fct_rev(childcount1920USOR_long$race)
+```
+
+```{r}
+ggplot(childcount1920USOR_long, 
+       aes(x = percent, 
+           y = race, 
+           fill = state)) + 
+  geom_bar(stat = "identity",
+           position = position_dodge(width = 0.7)) +  
+  scale_fill_manual(
+    values = viridis_colors, 
+    breaks = c("US and Outlying Areas", "Oregon"),         
+    labels = c("US and Outlying Areas", "Oregon")          
+  ) +
+  scale_x_continuous(
+    labels = percent_format(scale = 1), 
+    expand = expansion(mult = c(0, 0.05))) +
+  labs(
+    title = "Representations in EI",
+    x = "Percentage",
+    y = "Race",
+    fill = NULL) +
+  geom_text(aes(
+    label = scales::percent(percent / 100, accuracy = 0.1)), 
+    position = position_dodge(width = 0.7), 
+    hjust = -0.2,  
+    color = "black", 
+    size = 4) +  
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position = "bottom"
+  )
+```
