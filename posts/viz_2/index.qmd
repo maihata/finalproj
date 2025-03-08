@@ -1,5 +1,6 @@
 ---
-title: "Visualization 2: ggplot geom_bar()"
+title: "Visualizaing children served in EI"
+description: "Visualization 2: ggplot geom_bar()"
 author: "Maiko Hata"
 date: "2025-02-27"
 categories: [visualization, code, analysis]

@@ -1,5 +1,6 @@
 ---
-title: "Visualization 1: kable()"
+title: "Children served in EI: National and Oregon Data"
+description: "Visualization 1: kable()"
 author: "Maiko Hata"
 date: "2025-02-26"
 categories: [visualization, code, analysis]

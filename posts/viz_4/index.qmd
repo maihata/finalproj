@@ -1,5 +1,6 @@
 ---
-title: "Visualization 4: oddsratio()"
+title: "Odds ratio for EI exit due to Disqualification"
+description: "Visualization 4: oddsratio()"
 author: "Maiko Hata"
 date: "2025-03-03"
 categories: [data visualization, code, analysis]

@@ -8,7 +8,7 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://maihata.github.io/finalproj/
 format:
   html:
     code-fold: true 
