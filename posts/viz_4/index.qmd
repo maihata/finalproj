@@ -1,5 +1,5 @@
 ---
-title: "Odds ratio for EI exit due to Disqualification"
+title: "Odds ratio for EI exit by Disqualification"
 description: "Visualization 4: oddsratio()"
 author: "Maiko Hata"
 date: "2025-03-03"
