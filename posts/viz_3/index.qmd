@@ -13,7 +13,7 @@ Chi-square test is used to determine if the distribution of a sample is differen
 
 This is when I truly understood the power and flexibility of R, as it allowed me to present the story of the data through clear and intuitive visualizations.
 
-Do you notice how group 2 is over-represented and group 7 is under-represented in Attempts to Contact Unsuccessful ("Disqualification")? Also, group 7 is noticeably underrepresented in Part B Eligibility Not Determined ("Not Determined"), but the same group is over-represented in Complete or Not Eligible ("Not Eligible"). Let's see who these groups are.
+Do you notice how group 2 is over-represented and group 7 is under-represented in Attempts to Contact Unsuccessful ("Dismissed")? Also, group 7 is noticeably underrepresented in Part B Eligibility Not Determined ("Not Determined"), but the same group is over-represented in Complete or Not Eligible ("Not Eligible"). Let's see who these groups are.
 
 ```{r include=FALSE}
 
@@ -94,7 +94,7 @@ colnames(chi_results$stdres)
 ```{r include=FALSE}
 colnames(chi_results$stdres) <- c(
   "Withdrawal", 
-  "Disqualification", 
+  "Dismissed", 
   "Moved Out", 
   "Part B Eligible", 
   "Not Eligible", 
