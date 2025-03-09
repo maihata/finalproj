@@ -1,5 +1,5 @@
 ---
-title: "Odds ratio for EI exit by Disqualification"
+title: "Odds ratio for EI exit by Dismissal"
 description: "Visualization 4: oddsratio()"
 author: "Maiko Hata"
 date: "2025-03-03"
@@ -11,7 +11,7 @@ Here, the data storytelling really comes together. Based on the previous analysi
 
 The odds ratio analysis is a common way to measure how much more or less likely an outcome is for one group compared to another (Hosmer et al., 2013). However, if not used mindfully, the results can be too simplistic and may end up reinforcing common narratives that unfairly blame certain groups for disparities. This kind of oversimplification ignores the complexity of intersectionality (Crenshaw, 1989) that marginalized communities live. It’s also worth noting that Karl Pearson, who created the chi-square test, is believed to have developed statistical tools to support his interests in eugenics (Castillo & Strunk, 2025, p. 3).
 
-First, I ran an odds ratio analysis for the Disqualification category across all racial groups. Then, I tried creating bar charts to visualize the results.
+First, I ran an odds ratio analysis for the "Dismissed" exit category across all racial groups. Then, I tried creating bar charts to visualize the results.
 
 ```{r include=FALSE}
 
@@ -188,7 +188,7 @@ Finally, I made the following adjustments to make the chart easier to read:
 
 -   Added data labels above the dots.
 
-Do you see how the odds ratios highlight the over- and under-representations in the "Disqualification" category? (Just a reminder, this category represents cases where agencies "lose contact" with families, leading to disqualification.)
+Do you see how the odds ratios highlight the over- and under-representations in the "Dismissed" category? (Just a reminder, this category represents cases where agencies "lose contact" with families, leading to disqualification.)
 
 Moving forward, I plan to re-analyze the same dataset by comparing each group to the overall category average across all races. This way, I can avoid using White children and families as the norm for comparison.
 
@@ -210,7 +210,7 @@ ggplot(or_us_white_ci,
              color = "#7ad151") +  
   coord_flip() +  
   labs(
-    title = "Odds Ratio for Exiting EI via Disqualification (National)",
+    title = "Odds Ratio for Exiting EI via Dismissal (National)",
     x = "Group",
     y = "Odds Ratio"
   ) +
@@ -218,7 +218,6 @@ ggplot(or_us_white_ci,
   theme(
     axis.text.y = element_text(size = 10)
   )
-
 ```
 
 For my dissertation, I will continue by examining how infants and toddlers from different racial groups are represented in Early Intervention (EI) compared to census data. I will also conduct chi-square analyses with adjusted standardized residuals to explore exit patterns based on children's home language(s). Additionally, a comprehensive literature review incorporating both quantitative and qualitative studies will help amplify the voices of the families.

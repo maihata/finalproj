@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2025-03-03">
 <meta name="description" content="Visualization 4: oddsratio()">
 
-<title>Odds ratio for EI exit by Disqualification – Maiko’s blog</title>
+<title>Odds ratio for EI exit by Dismissal – Maiko’s blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -145,7 +145,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Odds ratio for EI exit by Disqualification</h1>
+      <h1 class="title">Odds ratio for EI exit by Dismissal</h1>
                   <div>
         <div class="description">
           Visualization 4: oddsratio()
@@ -193,7 +193,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>Here, the data storytelling really comes together. Based on the previous analysis and visualization of the chi-square results with standardized residuals, I decided to run odds ratios for some of the most notable cells that showed statistically significant disparities.</p>
 <p>The odds ratio analysis is a common way to measure how much more or less likely an outcome is for one group compared to another (Hosmer et al., 2013). However, if not used mindfully, the results can be too simplistic and may end up reinforcing common narratives that unfairly blame certain groups for disparities. This kind of oversimplification ignores the complexity of intersectionality (Crenshaw, 1989) that marginalized communities live. It’s also worth noting that Karl Pearson, who created the chi-square test, is believed to have developed statistical tools to support his interests in eugenics (Castillo &amp; Strunk, 2025, p.&nbsp;3).</p>
-<p>First, I ran an odds ratio analysis for the Disqualification category across all racial groups. Then, I tried creating bar charts to visualize the results.</p>
+<p>First, I ran an odds ratio analysis for the “Dismissed” exit category across all racial groups. Then, I tried creating bar charts to visualize the results.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -298,7 +298,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Made the the X-axis labels larger</p></li>
 <li><p>Added data labels above the dots.</p></li>
 </ul>
-<p>Do you see how the odds ratios highlight the over- and under-representations in the “Disqualification” category? (Just a reminder, this category represents cases where agencies “lose contact” with families, leading to disqualification.)</p>
+<p>Do you see how the odds ratios highlight the over- and under-representations in the “Dismissed” category? (Just a reminder, this category represents cases where agencies “lose contact” with families, leading to disqualification.)</p>
 <p>Moving forward, I plan to re-analyze the same dataset by comparing each group to the overall category average across all races. This way, I can avoid using White children and families as the norm for comparison.</p>
 <div class="cell">
 <details class="code-fold">
@@ -320,7 +320,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">"#7ad151"</span>) <span class="sc">+</span>  </span>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span>  </span>
 <span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Odds Ratio for Exiting EI via Disqualification (National)"</span>,</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Odds Ratio for Exiting EI via Dismissal (National)"</span>,</span>
 <span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Group"</span>,</span>
 <span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Odds Ratio"</span></span>
 <span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
