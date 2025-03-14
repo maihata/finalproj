@@ -18,7 +18,7 @@ Between 2013 and 2021, 3,310,559 infants and toddlers with disabilities and/or d
 
 ### Exit reasons
 
-When children turn three, they transition from being served under IDEA Part C to IDEA Part B, which manages providing free, appropriate public education for children ages three to 21 with disabilities (Early Childhood Technical Assistance Center, 2024). The IDEA Section 618 requires that the data is collected on children who had an active IFSP who stopped receiving services, or “exited” EI services (U.S. Department of Education [DOE], 2024). 
+When children turn three, they transition from being served under IDEA Part C to IDEA Part B, which manages providing free, appropriate public education for children ages three to 21 with disabilities (Early Childhood Technical Assistance Center, 2024). The IDEA Section 618 requires that the data is collected on children who had an active IFSP who stopped receiving services, or “exited” EI services (U.S. Department of Education \[DOE\], 2024).
 
 Infants and toddlers receiving EI services exit under one of 10 categories. Since some reason codes fell outside the scope of this study, they were either omitted or combined, resulting in six broad categories used in this visualization series.
 
@@ -38,7 +38,8 @@ kable(exit_categories_combined,
                     'Exit Category Codes')) %>% 
   kable_styling(bootstrap_options = "striped", 
                 full_width = F, 
-                position = "left")
+                position = "left") %>% 
+  column_spec(1, width = "25%")
 ```
 
 ### Going forward
