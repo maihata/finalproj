@@ -9,11 +9,13 @@ image: "race and exit corrplot.jpg"
 
 Here, I performed a chi-square test and used standardized residuals to interpret the results. I visualized the findings with `corrplot()`, one of my favorite packages.
 
-Chi-square test is used to determine if the distribution of a sample is different from what we would expect by chance (Agresti, 2013). It helps researchers understand whether the differences between observed and expected counts are likely due to random variation (Morgan et al., 2020). Standardized residuals provide additional insight by showing how much the observed counts differ from the expected ones, considering the influence of independent variables on dependent variables (Chatterjee, 2011).
+Chi-square test is used to determine if the distribution of a sample is different from what we would expect by chance (Agresti, 2013). It helps researchers understand whether the differences between observed and expected counts are likely due to random variation (Morgan et al., 2020). Standardized residuals provide additional insight by showing how much the observed counts differ from the expected ones, considering the influence of independent variables on dependent variables (Chatterjee, 2011). This visualization helps us identify where the largest disparities exist between expected and actual exit patterns across race.
 
 This is when I truly understood the power and flexibility of R, as it allowed me to present the story of the data through clear and intuitive visualizations.
 
-Do you notice how group 2 is over-represented and group 7 is under-represented in Attempts to Contact Unsuccessful ("Dismissed")? Also, group 7 is noticeably underrepresented in Part B Eligibility Not Determined ("Not Determined"), but the same group is over-represented in Complete or Not Eligible ("Not Eligible"). Let's see who these groups are.
+Do you notice how group 2 is over-represented and group 7 is under-represented in Attempts to Contact Unsuccessful ("Dismissed")? Also, group 7 is noticeably underrepresented in Part B Eligibility Not Determined ("Not Determined"), but the same group is over-represented in Complete or Not Eligible ("Not Eligible").
+
+Let's see who these groups are. (And, for more context on exit categories and the background of this study, see [my previous post](https://maihata.github.io/finalproj/posts/viz_0/index.html)).
 
 ```{r include=FALSE}
 

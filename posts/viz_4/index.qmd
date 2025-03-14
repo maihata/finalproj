@@ -11,6 +11,8 @@ Here, the data storytelling really comes together. Based on the previous analysi
 
 The odds ratio analysis is a common way to measure how much more or less likely an outcome is for one group compared to another (Hosmer et al., 2013). However, if not used mindfully, the results can be too simplistic and may end up reinforcing common narratives that unfairly blame certain groups for disparities. This kind of oversimplification ignores the complexity of intersectionality (Crenshaw, 1989) that marginalized communities live. It’s also worth noting that Karl Pearson, who created the chi-square test, is believed to have developed statistical tools to support his interests in eugenics (Castillo & Strunk, 2025, p. 3).
 
+For more context on exit categories and this study, see [my previous post](https://maihata.github.io/finalproj/posts/viz_0/index.html).
+
 First, I ran an odds ratio analysis for the "Dismissed" exit category across all racial groups. Then, I tried creating bar charts to visualize the results.
 
 ```{r include=FALSE}
