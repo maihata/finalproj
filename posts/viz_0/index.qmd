@@ -16,6 +16,31 @@ In this data visualization and storytelling portfolio, I conducted a secondary d
 
 Between 2013 and 2021, 3,310,559 infants and toddlers with disabilities and/or developmental delays received and exited Early Intervention (EI) services nationwide (U.S. Department of Education \[DOE\], 2025). In Oregon, 29,945 infants and toddlers received EI services during that time (DOE, 2025). In the following sections, I'll explore the data for all children who were eligible for EI services and stopped receiving them between 2013 and 2022, using visualizations and storytelling to highlight key insights.
 
+### Exit reasons
+
+When children turn three, they transition from being served under IDEA Part C to IDEA Part B, which manages providing free, appropriate public education for children ages three to 21 with disabilities (Early Childhood Technical Assistance Center, 2024). The IDEA Section 618 requires that the data is collected on children who had an active IFSP who stopped receiving services, or “exited” EI services (U.S. Department of Education [DOE], 2024). 
+
+Infants and toddlers receiving EI services exit under one of 10 categories. Since some reason codes fell outside the scope of this study, they were either omitted or combined, resulting in six broad categories used in this visualization series.
+
+```{r echo=FALSE}
+library(knitr)
+library(rio)
+library(kableExtra)
+```
+
+```{r echo=FALSE}
+exit_categories_combined <- import("/Users/hata/Desktop/finalproj/Data/exit_categories_combined.xlsx") 
+```
+
+```{r echo=FALSE}
+kable(exit_categories_combined, 
+      col.names = c('Exit Reasons',
+                    'Exit Category Codes')) %>% 
+  kable_styling(bootstrap_options = "striped", 
+                full_width = F, 
+                position = "left")
+```
+
 ### Going forward
 
 For my dissertation, I will examine how infants and toddlers from different racial groups are represented in Early Intervention (EI) compared to census data. I will also conduct chi-square analyses with adjusted standardized residuals to explore exit patterns in ODE data based on children's home language(s). Additionally, I will share extensive quantitative data to amplify the voices of the families highlighted in my literature review.
