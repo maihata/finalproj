@@ -10,7 +10,7 @@ image: "family_of_four.jpg"
 
 In this data visualization and storytelling portfolio, I conducted a secondary data analysis of extant data. These data were published by the [Office of Special Education Programs (OSEP)](https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c) and [Oregon Department of Education (ODE)](https://www.oregon.gov/ode/reports-and-data/SpEdReports/Pages/default.aspx). OSEP collects annual data on children, aged 0 to 2, who have stopped receiving [Early Intervention (EI)](https://www.cdc.gov/ncbddd/actearly/parents/states.html) services, with information categorized by gender, race, and ethnicity.
 
-![](family_of_four.jpg){fig-alt="Family of four playing on the floor looking at each other" fig-align="center" width="300"}
+![](family_of_four.jpg){fig-alt="Family of four playing on the floor looking at each other" fig-align="center" width="350"}
 
 ### Datasets
 

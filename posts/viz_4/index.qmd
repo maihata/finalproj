@@ -7,11 +7,11 @@ categories: [data visualization, code, analysis]
 image: "or_us_white_ci_timesnewroman.png"
 ---
 
-Here, the data storytelling really comes together. Based on the previous analysis and visualization of the chi-square results with standardized residuals, I decided to run odds ratios for some of the most notable cells that showed statistically significant disparities.
+Here, the data storytelling really comes together. Based on [the previous analysis and visualization of the chi-square results with standardized residuals](https://maihata.github.io/finalproj/posts/viz_3/), I decided to run odds ratios for some of the most notable cells that showed statistically significant disparities.
 
-The odds ratio analysis is a common way to measure how much more or less likely an outcome is for one group compared to another (Hosmer et al., 2013). However, if not used mindfully, the results can be too simplistic and may end up reinforcing common narratives that unfairly blame certain groups for disparities. This kind of oversimplification ignores the complexity of intersectionality (Crenshaw, 1989) that marginalized communities live. It’s also worth noting that Karl Pearson, who created the chi-square test, is believed to have developed statistical tools to support his interests in eugenics (Castillo & Strunk, 2025, p. 3).
+As I mentioned in [my previous post about this project's background](https://maihata.github.io/finalproj/posts/viz_0/), when children turn three, they transition from receiving services under IDEA Part C to IDEA Part B (Early Childhood Technical Assistance Center, 2024). Infants and toddlers exit Early Intervention (EI) services for various reasons, and significant disparities exist in how children from different racial backgrounds experience this transition.
 
-For more context on exit categories and this study, see [my previous post](https://maihata.github.io/finalproj/posts/viz_0/index.html).
+The odds ratio analysis measures how much more or less likely an outcome is for one group compared to another (Hosmer et al., 2013). However, if not used mindfully, the results can be too simplistic and may end up reinforcing common narratives that unfairly blame certain groups for disparities. This kind of oversimplification ignores the complexity of intersectionality (Crenshaw, 1989) that marginalized communities live. It’s also worth noting that Karl Pearson, who created the chi-square test, is believed to have developed statistical tools to support eugenics (Castillo & Strunk, 2025, p. 3).
 
 First, I ran an odds ratio analysis for the "Dismissed" exit category across all racial groups. Then, I tried creating bar charts to visualize the results.
 
