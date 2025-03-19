@@ -192,8 +192,6 @@ Finally, I made the following adjustments to make the chart easier to read:
 
 Do you see how the odds ratios highlight the over- and under-representations in the "Dismissed" category? (Just a reminder, this category represents cases where agencies "lose contact" with families, leading to disqualification.)
 
-Moving forward, I plan to re-analyze the same dataset by comparing each group to the overall category average across all races. This way, I can avoid using White children and families as the norm for comparison.
-
 ```{r}
 ggplot(or_us_white_ci, 
        aes(x = group, 
@@ -222,6 +220,8 @@ ggplot(or_us_white_ci,
   )
 ```
 
-For my dissertation, I will continue by examining how infants and toddlers from different racial groups are represented in Early Intervention (EI) compared to census data. I will also conduct chi-square analyses with adjusted standardized residuals to explore exit patterns based on children's home language(s). Additionally, a comprehensive literature review incorporating both quantitative and qualitative studies will help amplify the voices of the families.
+For my dissertation, I plan to re-analyze the same datasets by comparing each group to the overall category average across all races. This way, I can avoid using White children and families as the norm for comparison.
+
+I will also examine how infants and toddlers from different racial groups are represented in Early Intervention (EI) compared to census data. I will also conduct chi-square analyses with adjusted standardized residuals to explore exit patterns based on children's home language(s) in Oregon. Additionally, a comprehensive literature review incorporating both quantitative and qualitative studies will help amplify the voices of the families.
 
 Thank you for reading, and please stay connected through [my LinkedIn page](https://www.linkedin.com/in/maikohata/)!
