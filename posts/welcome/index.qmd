@@ -2,6 +2,7 @@
 title: "Welcome To Maiko's Blog"
 author: "Maiko Hata"
 date: "2025-02-23"
+
 categories: [news]
 ---
 
