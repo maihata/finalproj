@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Maiko Hata">
-<meta name="dcterms.date" content="2025-02-23">
+<meta name="dcterms.date" content="2025-02-24">
 
-<title>Welcome To Maiko’s Blog – Maiko's blog</title>
+<title>Data Visualizations for Educational Equity – Maiko’s blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -110,9 +112,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To Maiko’s Blog</h1>
+      <h1 class="title">Data Visualizations for Educational Equity</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">news</div>
+                <div class="quarto-category">code</div>
+                <div class="quarto-category">analysis</div>
               </div>
                   </div>
   </div>
@@ -130,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 23, 2025</p>
+        <p class="date">February 24, 2025</p>
       </div>
     </div>
     
@@ -149,18 +153,67 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Welcome to my blog &amp; こんにちは! I created this blog as part of my <a href="https://education.uoregon.edu/">Educational Data Science</a> specialization at the University of Oregon, where I am a doctorate student in educational leadership. Just a few months ago, I was completely new to R, RStudio, and GitHub.</p>
-<p>I also work as an Autism &amp; Behavior Consultant at an outreach agency, <a href="https://earlychildhoodcares.uoregon.edu/">Early Childhood CARES</a>, in the College of Education. This role motivated me to learn more so I can better support infants and toddlers who experience Autism and/or Developmental Disability and their families.</p>
-<p>My dissertation explores differences in EI access and exit patterns, focusing on disqualification or dismissal when families can’t be reached. Other research interests include QuantCrit, Universal Design for Learning, coaching for parents and caregivers, support for immigrant and neurodivergent/Autistic communities, and teacher education.</p>
-<p>For more information, please check out my <a href="https://www.linkedin.com/in/maikohata">LinkedIn</a> page.</p>
-<p>オレゴン大学博士課程（教育リーダーシップ）に在籍している畑 麻衣子です。<a href="https://education.uoregon.edu/">Educational Data Science</a> スペシャライゼーションの一環として、当サイトを作成しました。オレゴン大学 <a href="https://earlychildhoodcares.uoregon.edu/">Early Childhood CARES</a> にて、療育・自閉症のスペシャリストとして勤務しています。博士論文のトピックは療育における教育機会と格差です。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。<a href="https://www.linkedin.com/in/maikohata">リンクトインはこちら</a></p>
+<section id="data-visualization-for-equitable-ei-access" class="level3">
+<h3 class="anchored" data-anchor-id="data-visualization-for-equitable-ei-access">Data Visualization for equitable EI access</h3>
+<p>In this data visualization and storytelling portfolio, I conducted a secondary data analysis of extant data. These data were published by the <a href="https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c">Office of Special Education Programs (OSEP)</a> and <a href="https://www.oregon.gov/ode/reports-and-data/SpEdReports/Pages/default.aspx">Oregon Department of Education (ODE)</a>. OSEP collects annual data on children, aged 0 to 2, who have stopped receiving <a href="https://www.cdc.gov/ncbddd/actearly/parents/states.html">Early Intervention (EI)</a> services, with information categorized by gender, race, and ethnicity.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../images/uo.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="University of Oregon in spring" width="500"></p>
+<p><img src="family_of_four.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Family of four playing on the floor looking at each other" width="350"></p>
 </figure>
 </div>
+</section>
+<section id="datasets" class="level3">
+<h3 class="anchored" data-anchor-id="datasets">Datasets</h3>
+<p>Between 2013 and 2021, 3,310,559 infants and toddlers with disabilities and/or developmental delays received and exited Early Intervention (EI) services nationwide (U.S. Department of Education [DOE], 2025). In Oregon, 29,945 infants and toddlers received EI services during that time (DOE, 2025). In the following sections, I’ll explore the data for all children who were eligible for EI services and stopped receiving them between 2013 and 2022, using visualizations and storytelling to highlight key insights.</p>
+</section>
+<section id="exit-reasons" class="level3">
+<h3 class="anchored" data-anchor-id="exit-reasons">Exit reasons</h3>
+<p>When children turn three, they transition from being served under IDEA Part C to IDEA Part B, which manages providing free, appropriate public education for children ages three to 21 with disabilities (Early Childhood Technical Assistance Center, 2024). The IDEA Section 618 requires that the data is collected on children who had an active IFSP who stopped receiving services, or “exited” EI services (U.S. Department of Education [DOE], 2024).</p>
+<p>Infants and toddlers receiving EI services exit under one of 10 categories. Since some reason codes fell outside the scope of this study, they were either omitted or combined, resulting in six broad categories used in this visualization series.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-striped caption-top table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Exit Reasons</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Exit Category Codes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 25%;">Dismissed</td>
+<td style="text-align: left;">Attempts to contact the parents and/or child were unsuccessful</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 25%;">Moved Out</td>
+<td style="text-align: left;">Moved out of state</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 25%;">Not Eligible</td>
+<td style="text-align: left;">A child is no longer eligible for Part C prior to reaching age three; Not eligible for Part B, exit with referrals; Not eligible for Part B, exit with no referrals</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 25%;">Not Determined</td>
+<td style="text-align: left;">Part B eligibility not determined</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 25%;">Withdrawn</td>
+<td style="text-align: left;">Withdrawal by parent (or guardian)</td>
+</tr>
+</tbody>
+</table>
 
 
+</div>
+</div>
+</section>
+<section id="going-forward" class="level3">
+<h3 class="anchored" data-anchor-id="going-forward">Going forward</h3>
+<p>For my dissertation, I will examine how infants and toddlers from different racial groups are represented in Early Intervention (EI) compared to census data. I will also conduct chi-square analyses with adjusted standardized residuals to explore exit patterns in ODE data based on children’s home language(s). Additionally, I will share extensive quantitative data to amplify the voices of the families highlighted in my literature review.</p>
+<p>Thank you for reading, and feel free to stay connected through <a href="https://www.linkedin.com/in/maikohata/">my LinkedIn page</a>!</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
