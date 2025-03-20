@@ -178,3 +178,5 @@ corrplot(chi_results$stdres,
          cl.offset = 1,    
          cl.ratio = 0.2)    
 ```
+
+For my dissertation, I will analyze similar data broken down by home language status and Medicaid eligibility.
