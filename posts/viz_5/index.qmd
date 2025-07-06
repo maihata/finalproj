@@ -1,0 +1,103 @@
+---
+title: "Odds Ratio against the National Average"
+author: "Maiko Hata"
+date: "2025-03-29"
+categories: [news, code, analysis, visualization]
+image: sakura.jpg
+draft: true
+---
+
+It’s spring break now. My family went on vacation a few days ago, but I was too sick to go with them. I’m feeling a lot better now, and with no work, no classes, and no family around, I thought I’d spend some time working on the dataset.
+
+I figured out how to run odds ratios using a contingency table with multiple rows. I focused on comparing just two groups at a time - one racial group against the national average. QuantCrit researchers like Castillo and Strunk (2025) suggest using the overall population average, rather than the White population, as a reference point. This helps avoid treating the White population as the norm in quantitative comparisons.
+
+So, here’s a simple odds ratio chart (without confidence intervals—I haven’t had time to add those yet). It shows the odds for each racial group of being dismissed from Early Intervention (EI) services because agencies lost contact with the family.
+
+```{r include=FALSE}
+library(tidyverse)
+library(here)
+library(rio)
+library(knitr)
+library(gt)
+library(DT)
+library(reactable)
+library(gtsummary)
+library(kableExtra)
+library(tinytex)
+library(janitor)
+library(tidylog)
+library(sjPlot)
+library(lme4)
+library(tibble)
+library(dplyr)
+library(epitools)
+library(readxl)
+library(pwr)
+library(rcompanion)
+library(grateful)
+library(distill)
+library(readxl)
+library(scales)
+library(tidyr)
+library(patchwork)
+library(corrplot)
+library(distill)
+library(tibble)
+library(rcartocolor)
+library(ggplot2)
+library(quarto)
+library(usethis)
+library(vcd)
+library(knitr)
+```
+
+```{r include=FALSE}
+us_data_DQ_proportion_w_average <-read.csv("/Users/hata/Desktop/finalproj/Data/us_data_DQ_proportion_w_average.csv")
+```
+
+```{r include=FALSE}
+us_race_odds_ratio_vs_average <-read.csv("/Users/hata/Desktop/finalproj/Data/us_race_odds_ratio_vs_average.csv")
+```
+
+```{r include=FALSE}
+us_race_odds_ratio_vs_average <- us_race_odds_ratio_vs_average %>% 
+  select(-1)
+```
+
+```{r}
+
+kable(us_race_odds_ratio_vs_average, 
+      caption = "Odds Ratio for Dismissal against National Average") %>%
+  kable_styling(font_size = 14) %>%
+  add_header_above(c(" " = ncol(us_race_odds_ratio_vs_average)), bold = TRUE) %>%
+  footnote(general = "**Odds Ratio for Dismissal against National Average**", 
+           general_title = "", 
+           escape = FALSE)
+```
+
+```{r include=FALSE}
+
+ggplot(us_race_odds_ratio_vs_average, 
+       aes(x = reorder(Race, Odds_Ratio), y = Odds_Ratio)) + 
+  geom_col(fill = "lightgray") +  # this is now fixed
+  coord_flip() +
+  geom_hline(
+    yintercept = 1, 
+    linetype = "dashed", 
+    color = "green") +  
+  geom_text(
+    aes(label = round(Odds_Ratio, 2)), 
+    hjust = -0.1,  # adjust spacing; increase if labels overlap
+    size = 3.5     # adjust size as needed
+  ) +
+  scale_x_discrete(limits = rev(sort(unique(us_race_odds_ratio_vs_average$Race)))) + 
+  labs(
+    title = "Odds Ratio for Dismissal (Compared to Average)", 
+    x = "Race", 
+    y = "Odds Ratio"
+  ) + 
+  theme_minimal()
+```
+
+P.S. I’ve also been doing some fun things during the break, like visiting Salem to see the 桜 (cherry blossoms) and going to Portland for the museum (Monet! Hokusai!!) and a bit of shopping.
+
