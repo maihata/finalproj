@@ -23,6 +23,7 @@ format:
     theme:
       - minty
       - brand
+    fontawesome: true
     css: styles.css
     toc: true
     toc-depth: 2
