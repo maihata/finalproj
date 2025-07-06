@@ -11,8 +11,7 @@ title-block-banner: true
 
 Hi! I’m Maiko ([pronounced "Mike-oh"](https://namedrop.io/maikohata)). I am an Early Intervention/Early Childhood Special Education (EI/ECSE) specialist, educational researcher, trainer, and doctoral candidate passionate about educational opportunities for all and data-driven systems change. Whether you're a fellow researcher, student, or family advocate, I’m glad you’re here.
 
-I hope you'' take a moment to explore more [About me](about.html), my [Projects](posts.html), and my [Professional History](images/Maiko%20Hata%20CV%2025.pdf).\
-I look forward to connecting via [LinkedIn page](https://www.linkedin.com/in/maikohata/) or [Email](mailto:hata@uoregon.edu), too!
+I hope you'' take a moment to explore more [About me](about.html), my [Projects](posts.html), and my [Professional History](images/Maiko%20Hata%20CV%2025.pdf). I look forward to connecting via [LinkedIn page](https://www.linkedin.com/in/maikohata/) or [Email](mailto:hata@uoregon.edu), too!
 
 オレゴン大学博士課程（教育リーダーシップ）に在籍しながら、療育・自閉症のスペシャリストとして勤務している畑 麻衣子です。博士論文のトピックは、療育における教育機会と格差です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、また様々なワークショップで使用するために当サイトを作成しました。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。
 
