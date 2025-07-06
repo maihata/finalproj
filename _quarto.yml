@@ -12,9 +12,6 @@ website:
         href: index.qmd
       - text: Projects
         href: posts.qmd
-    right:
-      - icon: github
-        href: https://maihata.github.io/finalproj/
 
 format:
   html:
