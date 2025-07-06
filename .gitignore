@@ -4,21 +4,10 @@
 .RData
 .Ruserdata
 .Rdata
-
-# macOS system file
 .DS_Store
-
-# Quarto internal folders (cache and metadata)
 .quarto/
 .quarto
-
-# Quarto freeze cache
 _freeze/
-
-# OAuth tokens or API keys (if any)
 .httr-oauth
-
-# Optional: image types not needed in Git
 *.heic
-
 /.quarto/
