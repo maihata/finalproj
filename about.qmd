@@ -1,8 +1,11 @@
 ---
 title: "About"
-about: 
-  image: images/maiko_utah.png
-  template: jolla
+# about: 
+#   image: images/maiko_utah.png
+#   template: jolla
+format: html
+page-layout: full
+title-block-banner: true
 ---
 
 Hello and welcome! I'm Maiko (here's [how to pronounce my name](https://namedrop.io/maikohata) - it's like "Mike-Oh"), an Early Intervention (EI) & Early Childhood Special Education (ECSE) Specialist, Autism Consultant, trainer, and doctoral candidate at the University of Oregon.
