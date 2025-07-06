@@ -24,3 +24,5 @@ docs/search.json
 
 # Optional: image types not needed in Git
 *.heic
+
+/.quarto/
