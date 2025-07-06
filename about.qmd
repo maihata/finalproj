@@ -13,6 +13,9 @@ My dissertation explores differences in EI access and exit patterns. My current 
 
 Looking ahead, I hope to work with future educators and researchers as they explore topics like educational access, family-centered practices, and data equity. This site is where I share some of that journey. I’m glad you’re here!
 
+Poke around to learn more [About me](about.html) and my [Projects](posts.html), or get connected via [LinkedIn page](https://www.linkedin.com/in/maikohata/) or [Email](mailto:hata@uoregon.edu).
+
 オレゴン大学博士課程（教育リーダーシップ）に在籍している畑 麻衣子です。オレゴン大学にて療育・自閉症のスペシャリストとして勤務しています。博士論文のトピックは療育における教育機会と格差です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、当サイトを作成しました。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。
 
-[リンクトインはこちら](https://www.linkedin.com/in/maikohata)
+詳しくは [About me](about.html) と [Project](posts.html) からどうぞ。\
+[LinkedIn](https://www.linkedin.com/in/maikohata/) と[Email](mailto:hata@uoregon.edu) でのご連絡もお待ちしております。

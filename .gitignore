@@ -15,10 +15,6 @@
 # Quarto freeze cache
 _freeze/
 
-# Quarto-generated site files
-docs/site_libs/
-docs/search.json
-
 # OAuth tokens or API keys (if any)
 .httr-oauth
 
