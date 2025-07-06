@@ -11,10 +11,8 @@ title-block-banner: true
 
 オレゴン大学博士課程（教育リーダーシップ）に在籍しながら、療育・自閉症のスペシャリストとして勤務している畑 麻衣子です。博士論文のトピックは、療育における教育機会と格差です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、当サイトを作成しました。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。
 
-[![](images/icon_linkedin.png){fig-alt="LinkedIn"}](https://www.linkedin.com/in/maikohata/)
-
-[![](images/icon_cv.png){fig-alt="CV" width="57"}](images/Maiko Hata CV 25.pdf)
-
-[![](images/icon_email.png){fig-alt="Email"}](mailto:hata@uoregon.edu)
++:-------------------------------------------------------------------------------------------:+:-------------------------------------------------------------------------------:+:---------------------------------------------------------------------------------:+
+| [![](images/icon_linkedin.png){fig-alt="LinkedIn"}](https://www.linkedin.com/in/maikohata/) | [![](images/icon_cv.png){fig-alt="CV" width="49"}](images/Maiko Hata CV 25.pdf) | [![](images/icon_email.png){fig-alt="Email" width="38"}](mailto:hata@uoregon.edu) |
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
 
 </center>
