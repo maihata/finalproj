@@ -9,14 +9,17 @@ about:
       href: https://www.linkedin.com/in/maikohata/ 
 ---
 
-Hi, I'm Maiko (here's [how to pronounce my name](https://namedrop.io/maikohata)). I created this blog as part of my [Educational Data Science](https://education.uoregon.edu/) specialization at the University of Oregon, where I am a doctorate student in educational leadership.
+Hello and welcome! I'm Maiko (here's [how to pronounce my name](https://namedrop.io/maikohata) - it's like "Mike-Oh"), an Early Intervention (EI) & Early Childhood Special Education (ECSE) Specialist, Autism Consultant, trainer, and doctoral candidate at the University of Oregon.
 
-I also work as an Early Intervention (EI) Specialist and Autism & Behavior Consultant at an outreach agency, [Early Childhood CARES](https://earlychildhoodcares.uoregon.edu/), in the College of Education. This role motivated me to learn more so I can better support infants and toddlers who experience Autism and/or Developmental Disability and their families.
+Over the years, I have worked closely with families of young children with disabilities and/or developmental delays, teachers and fellow providers. In my previous career, I also supported international students from a wide range of cultural and linguistic backgrounds. While these roles might appear quite different, both deepened my understanding of how language, identity, and systemic barriers shape access to support, and how our own beliefs and values influence how we engage with each other. They also motivated me to keep learning so I could better support young children and the families working hard to advocate for them.
 
-My dissertation explores differences in EI access and exit patterns, focusing on disqualification or dismissal when families can’t be reached. Other research interests include QuantCrit, Universal Design for Learning, coaching for parents and caregivers, support for immigrant and neurodivergent/Autistic communities, and teacher education.
+My dissertation explores differences in EI access and exit patterns. My current research explores equitable access to EI services, focusing on how race, language, and systemic factors impact who receives support and how services end. I use data tools like R to better understand the patterns behind the numbers and to help systems be more responsive to the communities they serve.
 
-For more information, please check out my [LinkedIn](https://www.linkedin.com/in/maikohata) page.
+Looking ahead, I hope to work with future educators and researchers as they explore topics like educational access, family-centered practices, and data equity. This site is where I share some of that journey. I’m glad you’re here!
 
-オレゴン大学博士課程（教育リーダーシップ）に在籍している畑 麻衣子です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、当サイトを作成しました。オレゴン大学 [Early Childhood CARES](https://earlychildhoodcares.uoregon.edu/) にて、療育・自閉症のスペシャリストとして勤務しています。博士論文のトピックは療育における教育機会と格差です。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。
+🔗 \[LinkedIn\](https://www.linkedin.com/in/maihata)  \
+📄 \[View my CV\](images/Maiko Hata CV 25.pdf)
+
+オレゴン大学博士課程（教育リーダーシップ）に在籍している畑 麻衣子です。オレゴン大学にて療育・自閉症のスペシャリストとして勤務しています。博士論文のトピックは療育における教育機会と格差です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、当サイトを作成しました。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。
 
 [リンクトインはこちら](https://www.linkedin.com/in/maikohata)
