@@ -1,6 +1,6 @@
 ---
 title: "About"
-image:  images/Maiko_Utah.JPG
+image:  images/Maiko_Utah.jpg
 about:
   template: jolla
 ---
