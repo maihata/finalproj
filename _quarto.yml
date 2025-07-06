@@ -1,26 +1,34 @@
 project:
   type: website
-  output-dir: docs/ 
+  output-dir: docs
 
 website:
-  title: "Maiko's blog"
+  title: "Maiko Hata"
   navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: posts.qmd
+      - text: About
+        href: about.qmd
     right:
-      - about.qmd
       - icon: github
         href: https://maihata.github.io/finalproj/
+
 format:
   html:
-    code-fold: true 
-    code: false 
+    code-fold: true
+    code: false
     theme:
       - minty
       - brand
     css: styles.css
-execute: 
-    warning: false
-    message: false 
+    toc: true
+    toc-depth: 2
+
+execute:
+  warning: false
+  message: false
+
 editor: visual
-
-
-
