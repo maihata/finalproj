@@ -15,6 +15,8 @@ website:
 
 format:
   html:
+    code-fold: true
+    code: false
     theme:
       - minty
       - brand
@@ -22,8 +24,6 @@ format:
     css: styles.css
     toc: true
     toc-depth: 2
-    code-fold: true
-    code: false
 
 execute:
   warning: false
