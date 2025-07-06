@@ -8,3 +8,5 @@
 .httr-oauth
 _freeze/
 .quarto/
+
+/.quarto/
