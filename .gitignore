@@ -1,13 +1,10 @@
-# RStudio session files
+# Safe, minimal .gitignore for a Quarto site
+
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-.Rdata
 .DS_Store
-.quarto/
-.quarto
-_freeze/
 .httr-oauth
-*.heic
-/.quarto/
+_freeze/
+.quarto/
