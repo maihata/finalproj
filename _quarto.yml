@@ -6,20 +6,20 @@ website:
   title: "Maiko Hata"
   navbar:
     left:
+      - text: About
+        href: about.qmd
       - text: Home
         href: index.qmd
       - text: Projects
         href: posts.qmd
-      - text: About
-        href: about.qmd
+      - text: Contact
+        href: contact.qmd
     right:
       - icon: github
         href: https://maihata.github.io/finalproj/
 
 format:
   html:
-    code-fold: true
-    code: false
     theme:
       - minty
       - brand
@@ -27,6 +27,8 @@ format:
     css: styles.css
     toc: true
     toc-depth: 2
+    code-fold: true
+    code: false
 
 execute:
   warning: false
