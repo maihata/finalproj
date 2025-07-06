@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,18 +111,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/Maiko_Utah.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">About</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
+  
+
+
+</header>
+
+
+<p><img src="images/maiko_utah.jpg" width="250" style="display: block; margin: 0 auto; border-radius: 50%;"></p>
 <p>Hello and welcome! I’m Maiko (here’s <a href="https://namedrop.io/maikohata">how to pronounce my name</a> - it’s like “Mike-Oh”), an Early Intervention (EI) &amp; Early Childhood Special Education (ECSE) Specialist, Autism Consultant, trainer, and doctoral candidate at the University of Oregon.</p>
 <p>Over the years, I have worked closely with families of young children with disabilities and/or developmental delays, teachers and fellow providers. In my previous career, I also supported international students from a wide range of cultural and linguistic backgrounds. While these roles might appear quite different, both deepened my understanding of how language, identity, and systemic barriers shape access to support, and how our own beliefs and values influence how we engage with each other. They also motivated me to keep learning so I could better support young children and the families working hard to advocate for them.</p>
 <p>My dissertation explores differences in EI access and exit patterns. My current research explores equitable access to EI services, focusing on how race, language, and systemic factors impact who receives support and how services end. I use data tools like R to better understand the patterns behind the numbers and to help systems be more responsive to the communities they serve.</p>
@@ -133,9 +148,8 @@ I look forward to connecting via <a href="https://www.linkedin.com/in/maikohata/
 <a href="https://www.linkedin.com/in/maikohata/">LinkedIn</a> と<a href="mailto:hata@uoregon.edu">Email</a> でのご連絡もお待ちしております。</p>
 
 
-</main>  
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -156,6 +170,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
