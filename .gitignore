@@ -1,10 +1,26 @@
+# RStudio session files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-
-/.quarto/
 .Rdata
-.httr-oauth
+
+# macOS system file
 .DS_Store
+
+# Quarto internal folders (cache and metadata)
+.quarto/
 .quarto
+
+# Quarto freeze cache
+_freeze/
+
+# Quarto-generated site files
+docs/site_libs/
+docs/search.json
+
+# OAuth tokens or API keys (if any)
+.httr-oauth
+
+# Optional: image types not needed in Git
+*.heic
