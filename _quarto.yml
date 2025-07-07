@@ -25,7 +25,7 @@ website:
     left: "© 2025 Maiko Hata"
     right: >
       Built with <i class="fa-solid fa-heart" title="love"></i>, 
-      <a href="https://github.com/maikohata" target="_blank">
+      <a href="https://github.com/maihata" target="_blank">
         <i class="fa-brands fa-github" title="GitHub"></i>
       </a>, 
       and <a href="https://quarto.org" target="_blank">Quarto</a>
