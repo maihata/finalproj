@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Projects & Workshops"
 listing:
   contents: posts
   sort: "date desc"
