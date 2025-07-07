@@ -1,32 +1,31 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "Maiko Hata"
   navbar:
     left:
       - text: About
-        href: about.qmd
+        href: about.qmd 
       - text: Home
         href: index.qmd
+      - text: CV
+        href: images/Maiko_CV.pdf
+        target: _blank
       - text: Projects & Workshops
         href: posts.qmd
+ 
+  page-footer:
+    background: light
+    left: "© 2025 Maiko Hata"
+    right: >
+      Built with {{< fa heart title="love" >}}, 
+      [{{< fa brands github title="GitHub" >}}](https://github.com/maikohata){target=_blank}, 
+      and [Quarto](https://quarto.org){target=_blank}
 
 format:
   html:
-    code-fold: true
-    code: false
-    theme:
-      - minty
-      - brand
-    fontawesome: true
-    css: styles.css
+    theme: minty
+    css: styles.css   # optional; delete this line if you're not using custom CSS
     toc: true
-    toc-depth: 2
-
-execute:
-  warning: false
-  message: false
-
-editor: visual
+    page-layout: full
