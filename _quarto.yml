@@ -21,12 +21,13 @@ website:
       - icon: linkedin
         href: https://linkedin.com/in/maikohata
         target: _blank
-
   page-footer:
     left: "© 2025 Maiko Hata"
     right: >
       Built with <i class="fa-solid fa-heart" title="love"></i>, 
-      <a href="https://github.com/maikohata" target="_blank"><i class="fa-brands fa-github"></i></a>, 
+      <a href="https://github.com/maikohata" target="_blank">
+        <i class="fa-brands fa-github" title="GitHub"></i>
+      </a>, 
       and <a href="https://quarto.org" target="_blank">Quarto</a>
 
 format:
@@ -34,4 +35,7 @@ format:
     theme: minty
     toc: true
     page-layout: full
-    title-block-banner: false  # try disabling to test
+    title-block-banner: false
+    include-in-header: 
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
