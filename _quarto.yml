@@ -17,7 +17,6 @@ website:
         href: posts.qmd
  
   page-footer:
-    background: light
     left: "© 2025 Maiko Hata"
     right: >
       Built with {{< fa heart title="love" >}}, 
