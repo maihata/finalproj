@@ -5,33 +5,33 @@ project:
 website:
   title: "Maiko Hata"
   navbar:
+    collapse: true
     left:
-      - text: About
-        href: about.qmd 
       - text: Home
         href: index.qmd
+      - text: About
+        href: about.qmd 
       - text: Projects & Workshops
         href: posts.qmd
-      - href: images/Maiko_CV.pdf
+      - text: CV
+        href: images/Maiko_CV.pdf
         target: _blank
-        text: CV
-      - href: mailto:hata@uoregon.edu
-        text: "<i class='fa-solid fa-envelope' title='Email'></i>"
-      - href: https://linkedin.com/in/maikohata
+      - icon: envelope
+        href: mailto:hata@uoregon.edu
+      - icon: linkedin
+        href: https://linkedin.com/in/maikohata
         target: _blank
-        text: "<i class='fa-brands fa-linkedin' title='LinkedIn'></i>"
-      
- 
+
   page-footer:
     left: "© 2025 Maiko Hata"
     right: >
-      Built with {{< fa heart title="love" >}}, 
-      [{{< fa brands github title="GitHub" >}}](https://github.com/maikohata){target=_blank}, 
-      and [Quarto](https://quarto.org){target=_blank}
+      Built with <i class="fa-solid fa-heart" title="love"></i>, 
+      <a href="https://github.com/maikohata" target="_blank"><i class="fa-brands fa-github"></i></a>, 
+      and <a href="https://quarto.org" target="_blank">Quarto</a>
 
 format:
   html:
     theme: minty
-    css: styles.css   # optional; delete this line if you're not using custom CSS
+    css: styles.css   
     toc: true
     page-layout: full
