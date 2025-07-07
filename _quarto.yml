@@ -10,11 +10,17 @@ website:
         href: about.qmd 
       - text: Home
         href: index.qmd
-      - text: CV
-        href: images/Maiko_CV.pdf
-        target: _blank
       - text: Projects & Workshops
         href: posts.qmd
+      - href: images/Maiko_CV.pdf
+        target: _blank
+        text: CV
+      - href: mailto:hata@uoregon.edu
+        text: "<i class='fa-solid fa-envelope' title='Email'></i>"
+      - href: https://linkedin.com/in/maikohata
+        target: _blank
+        text: "<i class='fa-brands fa-linkedin' title='LinkedIn'></i>"
+      
  
   page-footer:
     left: "© 2025 Maiko Hata"
