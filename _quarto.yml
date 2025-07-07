@@ -22,12 +22,8 @@ website:
         href: https://linkedin.com/in/maikohata
         target: _blank
 
-  page-footer:
-    center: "© 2025 Maiko Hata"
-   
 format:
   html:
     theme: minty
-    css: styles.css   
     toc: true
     page-layout: full

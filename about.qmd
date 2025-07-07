@@ -7,7 +7,7 @@ format:
     title-block-banner: true
 ---
 
-![](images/Maiko_discussion_no_glasses.png){fig-alt="Maiko leading a workshop in front of a classroom" fig-align="center" width="40%"}
+![](images/maiko_discussion.png){fig-alt="Maiko standing in front of a classroom speaking" fig-align="center" width="40%"}
 
 Hello and welcome! I'm Maiko (here's [how to pronounce my name](https://namedrop.io/maikohata), like "Mike-Oh"), an Early Intervention (EI) & Early Childhood Special Education (ECSE) Specialist, Autism Consultant, trainer, and doctoral candidate at the University of Oregon.
 
