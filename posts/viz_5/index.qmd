@@ -2,7 +2,7 @@
 title: "Odds Ratio against the National Average"
 author: "Maiko Hata"
 date: "2025-03-29"
-categories: [news, code, analysis, visualization]
+categories: [news, code, analysis, data visualization]
 image: sakura.jpg
 draft: true
 ---
@@ -100,4 +100,3 @@ ggplot(us_race_odds_ratio_vs_average,
 ```
 
 P.S. I’ve also been doing some fun things during the break, like visiting Salem to see the 桜 (cherry blossoms) and going to Portland for the museum (Monet! Hokusai!!) and a bit of shopping.
-

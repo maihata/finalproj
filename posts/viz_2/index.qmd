@@ -3,7 +3,7 @@ title: "Visualizaing children served in EI"
 description: "Visualization 2: ggplot geom_bar()"
 author: "Maiko Hata"
 date: "2025-02-27"
-categories: [visualization, code, analysis]
+categories: [data visualization, code, analysis]
 image: "plot_cc_2.jpg"
 ---
 
