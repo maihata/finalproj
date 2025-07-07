@@ -10,7 +10,7 @@ website:
         href: about.qmd
       - text: Home
         href: index.qmd
-      - text: Projects
+      - text: Projects & Workshops
         href: posts.qmd
 
 format:
