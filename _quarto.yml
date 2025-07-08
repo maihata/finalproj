@@ -27,4 +27,3 @@ format:
     theme: minty
     toc: true
     page-layout: full
-    code-fold: true
