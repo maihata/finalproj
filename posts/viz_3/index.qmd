@@ -1,5 +1,5 @@
 ---
-title: "Racial disparities in EI exit patterns"
+title: "EI exit patterns by"
 description: "Visualization 3: corrplot()"
 author: "Maiko Hata"
 date: "2025-02-28"

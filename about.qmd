@@ -21,4 +21,8 @@ I hope you'll take a moment to explore more about my [Projects](posts.html) and 
 
 ![](images/maiko_dogs.png){fig-alt="Maiko on a couch with dogs" fig-align="center" width="40%"}
 
-オレゴン大学博士課程（教育リーダーシップ）に在籍している畑 麻衣子です。オレゴン大学にて療育・自閉症のスペシャリストとして勤務しています。博士論文のトピックは療育における教育機会と格差です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、当サイトを作成しました。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。詳しくは [Projects](posts.html)と[履歴書](images/Maiko_CV.pdf) をご覧ください。[LinkedIn](https://www.linkedin.com/in/maikohata/) と[Email](mailto:hata@uoregon.edu) でのご連絡もお待ちしております。
+療育・自閉症のスペシャリストとして米国オレゴンで勤務している 畑 麻衣子です。オレゴン大学博士課程（教育リーダーシップ）では、療育における教育機会と格差を中心に研究中。教育ビッグデータ、保護者コーチング、自閉症、教員教育も研究しています。大阪高槻出身、大阪弁が恋しいです。
+
+以前は日本とアメリカの大学で、教員・アドバイザーとして英語教育に携わっていました。学習障害などの理由でむずかしさを感じる大学生・留学生に出会い、支援しようと文献を探しましたが十分な情報が見つからず、世界最大の英語教員学会 [TESOL](https://www.tesol.org/) 内に「Supporting Students with Disability Interest Section」を同僚とともに立ち上げたのが2018年のこと。初代チェアも務めました。
+
+詳しくは [About me](https://maihata.github.io/finalproj/about.html) と [Projects](https://maihata.github.io/finalproj/posts.html) 、[履歴書](https://maihata.github.io/finalproj/images/Maiko%20Hata%20CV%2025.pdf) をご覧ください。[LinkedIn](https://www.linkedin.com/in/maikohata/) と[Email](mailto:hata@uoregon.edu) からのご連絡もお待ちしております。
