@@ -1,5 +1,5 @@
 ---
-title: "EI exit patterns by"
+title: "EI exit patterns using corrplot package"
 description: "Visualization 3: corrplot()"
 author: "Maiko Hata"
 date: "2025-02-28"
