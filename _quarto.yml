@@ -14,7 +14,7 @@ website:
       - text: Projects & Workshops
         href: posts.qmd
       - text: CV
-        href: images/Maiko_CV.pdf
+        href: images/Maiko_CV_26.pdf
         target: _blank
       - icon: envelope
         href: mailto:hata@uoregon.edu
