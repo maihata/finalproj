@@ -17,7 +17,7 @@ My dissertation explores access to EI services, focusing on how systemic factors
 
 Looking ahead, I hope to work with future educators and researchers as they explore topics like educational access, family-centered practices, and data equity.
 
-I’m glad you’re here and hope you'll take a moment to explore more about [my projects](posts.html) and [my professional history](images/Maiko_CV_26.pdf). I look forward to connecting via [LinkedIn page](https://www.linkedin.com/in/maikohata/) or [Email](mailto:hata@uoregon.edu)!
+I’m glad you’re here and hope you'll take a moment to explore more about [my projects](posts.html) and [my professional history](images/Maiko_CV_25.pdf). I look forward to connecting via [LinkedIn page](https://www.linkedin.com/in/maikohata/) or [Email](mailto:hata@uoregon.edu)!
 
 ![](images/maiko_dogs.png){fig-alt="Maiko on a couch with dogs" fig-align="center" width="40%"}
 
@@ -25,4 +25,4 @@ I’m glad you’re here and hope you'll take a moment to explore more about [my
 
 以前は日本やアメリカの大学で、教員やアドバイザーとして英語教育に携わっていました。学習障害などにより学びにくさを感じている大学生や留学生と出会う中で、どう支援すればよいのかを模索しましたが、当時は十分な文献や情報が見つかりませんでした。そこで、同じ思いを持つ同僚とともに、世界最大の英語教員学会 [TESOL](https://www.tesol.org/) 内に「Supporting Students with Disability Interest Section（障がいのある学生支援部会）」を立ち上げたのが2018年のことです。その初代チェアも務めました。
 
-趣味は犬との散歩と読書、娘・息子との映画鑑賞。大阪高槻出身、大阪弁が恋しいです。詳しくは [About me](https://maihata.github.io/finalproj/about.html) と [Projects](https://maihata.github.io/finalproj/posts.html) 、[履歴書](images/Maiko_CV_26.pdf) をご覧ください。[LinkedIn](https://www.linkedin.com/in/maikohata/) と[Email](mailto:hata@uoregon.edu) からのご連絡もお待ちしております。
+趣味は犬との散歩と読書、娘・息子との映画鑑賞。大阪高槻出身、大阪弁が恋しいです。詳しくは [About me](https://maihata.github.io/finalproj/about.html) と [Projects](https://maihata.github.io/finalproj/posts.html) 、[履歴書](images/Maiko_CV_25.pdf) をご覧ください。[LinkedIn](https://www.linkedin.com/in/maikohata/) と[Email](mailto:hata@uoregon.edu) からのご連絡もお待ちしております。

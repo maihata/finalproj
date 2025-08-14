@@ -1,0 +1,16 @@
+---
+title: "DEC26 Presentations"
+description: "DEC26 Presentation Dates"
+author: "Maiko Hata"
+date: "2025-08-06"
+categories: [news, analysis, presentation]
+image: "or_us_white_ci_timesnewroman.png"
+draft: true 
+---
+
+I’m excited to learn the dates for our presentations at DEC25 in Portland! \
+\
+On 10/8/25, I’ll be sharing findings from my dissertation, which examines service exit patterns in Early Intervention across the U.S. and in Oregon. Using a QuantCrit lens, I analyzed who is most likely to be found ineligible or dismissed, and how equity-centered data practices can better support all families. \
+\
+I’ll also be co-presenting a meta-synthesis on transitions from Early Intervention to Early Childhood Special Education (EI-ECSE) on 10/10. I am so very grateful for this opportunity! \
+\
