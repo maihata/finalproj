@@ -11,9 +11,7 @@ image: "2025_9_DEC_1_cover.png"
 
 It’s been a while, and I hope you’ve been doing well! Over the past six months, I’ve been busy collecting, cleaning, and analyzing datasets from [Office of Special Education Programs (OSEP)](https://data.ed.gov/dataset/idea-section-618-data-products-static-tables-part-c) and [Oregon Department of Education (ODE)](https://www.oregon.gov/ode/Pages/default.aspx).
 
-As I get ready to share part of this work at [DEC 2025 in Portland, OR](https://www.decconference.org/), I’ve uploaded the slides and handout from my presentation, **How Often and Why Are Marginalized Families Dismissed from EI Services?**, on Wednesday, October 8.
-
-Thank you so much to those who joined me at the session! I’d love to keep in touch. Please feel free to reach out by [email](mailto:hata@uoregon.edu) or connect on [LinkedIn](https://www.linkedin.com/in/maikohata/). You can also follow my progress on [this website](https://maihata.github.io/finalproj/) and view [Maiko's CV here](Maiko_CV_26.pdf).
+As I get ready to share part of this work at [DEC 2025 in Portland, OR](https://www.decconference.org/), I’ve uploaded the slides and handout from my presentation, **How Often and Why Are Marginalized Families Dismissed from EI Services?** (Wednesday, October 8). Thank you so much to those who joined me at the session! I’d love to keep in touch. Please feel free to reach out by [email](mailto:hata@uoregon.edu) or connect on [LinkedIn](https://www.linkedin.com/in/maikohata/). You can also follow my progress on [this website](https://maihata.github.io/finalproj/) and view [Maiko's CV here](Maiko_CV_26.pdf).
 
 -   [Download my slides](DEC25_EIExits_presentation.pdf)
 
