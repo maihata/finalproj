@@ -9,8 +9,8 @@ image: "25_article_SEL.png"
 
 ![](25_article_SEL.png){fig-align="center" width="70%"}
 
-Very excited to share that [our publication is now out](linkinghub.elsevier.com/retrieve/pii/S2773233925000397)! This qualitative work explores how Oregon educator preparation programs are implementing the state’s new Social and Emotional Learning standards, highlighting both the challenges and opportunities they face. Findings offer insights to guide ongoing improvement and adaptation of SEL standards in teacher preparation and reflects a lot of what I’ve been learning, especially around culturally and linguistically responsive provider training for improved quality of services. \
+I am very excited that [our publication is now out](https://doi.org/10.1016/j.sel.2025.100115)! This qualitative study looks at how Oregon educator preparation programs are implementing the new Social and Emotional Learning standards, highlighting both the challenges and opportunities. The findings offer insights to guide ongoing adoptation of SEL standards and reflects a lot of what I’ve been learning, especially around culturally and linguistically responsive provider training for improved quality of services. \
 \
-I am grateful to collaborate with [**Kristin Rush**](https://www.linkedin.com/in/kristinjrush/), [**Deirdre Hon**](https://www.linkedin.com/in/deirdre-hon-98bb2722b/), and Lauren Vega O'Neil!
+I am grateful for this opportunity to collaborate with [**Kristin Rush**](https://www.linkedin.com/in/kristinjrush/), [**Deirdre Hon**](https://www.linkedin.com/in/deirdre-hon-98bb2722b/), and Lauren Vega O'Neil!
 
-You can [read the full article here](linkinghub.elsevier.com/retrieve/pii/S2773233925000397) 📖
+Please check it out - [you can read the full article here](https://doi.org/10.1016/j.sel.2025.100115) 📖
