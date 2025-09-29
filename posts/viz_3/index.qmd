@@ -45,7 +45,7 @@ library(corrplot)
 
 ```{r include=FALSE}
 
-race_us <- read_csv("/Users/hata/Desktop/finalproj/Data/race_us.csv")
+race_us <- read_csv("/Users/maiko/Desktop/finalproj/Data/race_us.csv")
 ```
 
 ```{r include=FALSE}

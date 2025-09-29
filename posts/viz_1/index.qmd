@@ -52,7 +52,7 @@ library(usethis)
 ```
 
 ```{r include=FALSE}
-race_us_chart <- read_csv("/Users/hata/Desktop/finalproj/Data/race_us_chart.csv")
+race_us_chart <- read_csv("/Users/maiko/Desktop/finalproj/Data/race_us_chart.csv")
 ```
 
 ```{r}

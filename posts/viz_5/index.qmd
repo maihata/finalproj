@@ -52,11 +52,11 @@ library(knitr)
 ```
 
 ```{r include=FALSE}
-us_data_DQ_proportion_w_average <-read.csv("/Users/hata/Desktop/finalproj/Data/us_data_DQ_proportion_w_average.csv")
+us_data_DQ_proportion_w_average <-read.csv("/Users/maiko/Desktop/finalproj/Data/us_data_DQ_proportion_w_average.csv")
 ```
 
 ```{r include=FALSE}
-us_race_odds_ratio_vs_average <-read.csv("/Users/hata/Desktop/finalproj/Data/us_race_odds_ratio_vs_average.csv")
+us_race_odds_ratio_vs_average <-read.csv("/Users/maiko/Desktop/finalproj/Data/us_race_odds_ratio_vs_average.csv")
 ```
 
 ```{r include=FALSE}

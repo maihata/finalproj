@@ -29,7 +29,7 @@ library(kableExtra)
 ```
 
 ```{r echo=FALSE}
-exit_categories_combined <- import("/Users/hata/Desktop/finalproj/Data/exit_categories_combined.xlsx") 
+exit_categories_combined <- import("/Users/maiko/Desktop/finalproj/Data/exit_categories_combined.xlsx") 
 ```
 
 ```{r echo=FALSE}
