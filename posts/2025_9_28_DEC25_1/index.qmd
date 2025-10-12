@@ -7,10 +7,8 @@ categories: [data visualization, news, conference, analysis]
 image: "2025_9_DEC_1_cover.png"
 ---
 
-![](DEC25_cover.png){width="60%"}
+![](DEC25_cover.png){fig-align="center" width="60%"}
 
-Thank you to everyone who joined me at [DEC 2025 in Portland, OR](https://www.decconference.org/)! I hope you found the session meaningful and thought provoking. I've uploaded [handout](DEC25_EIExits_handout.pdf) below, and I'd love to keep the conversation going! If you'd like a copy of the slides or have any questions or suggestions, please feel free to connect with me by [email](mailto:hata@uoregon.edu) or [LinkedIn](https://www.linkedin.com/in/maikohata/). My CV is also available [here](Maiko_CV_26.pdf).
-
-More data analyses will be added to [this site](https://maihata.github.io/finalproj/) soon, so please stay tuned. I am so thankful to share this journey with others like you who care deeply about equity in EI!　
+Thank you to everyone who joined me at [DEC 2025 in Portland, OR](https://www.decconference.org/)! I hope you found the session meaningful and thought provoking. I've uploaded [handout](DEC25_EIExits_handout.pdf) below, and I'd love to keep the conversation going! If you'd like a copy of the slides or have any questions or suggestions, please feel free to connect with me by [email](mailto:hata@uoregon.edu) or [LinkedIn](https://www.linkedin.com/in/maikohata/). My CV is also available [here](Maiko_CV_26.pdf). More data analyses will be added to [this site](https://maihata.github.io/finalproj/) soon, so please stay tuned. I am so thankful to share this journey with others like you who care deeply about equity in EI!　
 
 -   [Download my handout](DEC25_EIExits_handout.pdf) (summary with references)
