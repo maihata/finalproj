@@ -6,14 +6,13 @@ date: "2025-02-23"
 categories: [news]
 ---
 
-Welcome to my blog & こんにちは! I created this blog as part of my [Educational Data Science](https://education.uoregon.edu/) specialization at the University of Oregon, where I am a doctorate student in educational leadership. Just a few months ago, I was completely new to R, RStudio, and GitHub.
-
-I also work as an Early Intervention (EI) Specialist and Autism & Behavior Consultant at an outreach agency, [Early Childhood CARES](https://earlychildhoodcares.uoregon.edu/), in the College of Education. This role motivated me to learn more so I can better support infants and toddlers who experience Autism and/or Developmental Disability and their families.
+Welcome to my website & こんにちは! I created this site as part of my [Educational Data Science](https://education.uoregon.edu/) specialization at the University of Oregon, where I am a doctorate candidate in educational leadership. 
+I also work as an Early Intervention (EI) Specialist and Autism & Behavior Consultant at an outreach agency based in Oregon. This role motivated me to learn more so I can better support infants and toddlers who experience Autism and/or Developmental Disability and their families.
 
 My dissertation explores differences in EI access and exit patterns, focusing on disqualification or dismissal when families can’t be reached. Other research interests include QuantCrit, Universal Design for Learning, coaching for parents and caregivers, support for immigrant and neurodivergent/Autistic communities, and teacher education.
 
 For more information, please check out my [LinkedIn](https://www.linkedin.com/in/maikohata) page.
 
-オレゴン大学博士課程（教育リーダーシップ）に在籍している畑 麻衣子です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、当サイトを作成しました。オレゴン大学 [Early Childhood CARES](https://earlychildhoodcares.uoregon.edu/) にて、療育・自閉症のスペシャリストとして勤務しています。博士論文のトピックは療育における教育機会と格差です。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。[リンクトインはこちら](https://www.linkedin.com/in/maikohata)
+オレゴン大学博士課程（教育リーダーシップ）に在籍している畑 麻衣子です。[Educational Data Science](https://education.uoregon.edu/) スペシャライゼーションの一環として、当サイトを作成しました。療育・自閉症のスペシャリストとしても勤務しています。博士論文のトピックは療育における教育機会と格差です。ユニバーサルデザイン、自閉症、ペアレントコーチング、教員教育も研究中。大阪高槻出身、大阪弁が恋しいです。[リンクトインはこちら](https://www.linkedin.com/in/maikohata)
 
 ![](/images/uo.jpg){fig-alt="University of Oregon in spring" fig-align="center" width="500"}
