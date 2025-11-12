@@ -15,7 +15,7 @@ Over the years, I’ve worked closely with families of young children with disab
 
 My dissertation explores access to EI services, focusing on how systemic factors shape who receives support and how services end. I use data tools like R to better understand the patterns behind the numbers and to support more responsive, community-centered systems.
 
-Looking ahead, I hope to work with future educators and researchers as they explore topics like educational access, family-centered practices, and data equity.
+Looking ahead, I hope to work with future educators, researchers, and policy makers as they explore topics like educational access, family-centered practices, and data equity.
 
 I’m glad you’re here and hope you'll take a moment to explore more about [my projects](posts.html) and [my professional history](images/Maiko_CV_25.pdf). I look forward to connecting via [LinkedIn page](https://www.linkedin.com/in/maikohata/) or [Email](mailto:maikohatadelaney@gmail.com)!
 
