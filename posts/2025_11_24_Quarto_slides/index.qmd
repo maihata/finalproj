@@ -1,0 +1,14 @@
+---
+title: "Machine Learning presentation"
+description: "Machine Learning implications"
+author: "Maiko Hata"
+date: "2025-11-24"
+categories: [data visualization, news, machine learning, analysis]
+image: "quarto_slide.png"
+---
+
+![](quarto_slide.png){fig-align="center" width="50%"}
+
+I recently created a short machine learning (quarto) presentation using the AQ-10 screener dataset. I learned a lot about building models using Ridge, Lasso, and Elastic Net after cleaning the data, categorizing variables, and checking assumptions, an important reminder that thoughtful preprocessing is just as critical as the modeling itself.
+
+As researchers, keeping an equity lens is always essential, but it feels especially important in machine learning where it’s easy to run models without fully understanding the data, variables, or real-world implications. You can [view my presentation here](https://maihata.quarto.pub/edld654-ml-project/#/title-slide).
