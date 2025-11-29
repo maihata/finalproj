@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Projects & Workshops",
     "section": "",
-    "text": "Machine Learning presentation\n\n\n\ndata visualization\n\nnews\n\nmachine learning\n\nanalysis\n\n\n\nMachine Learning implications\n\n\n\n\n\nNov 24, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nDEC25 Presentation - EI Exits\n\n\n\ndata visualization\n\nnews\n\nconference\n\nanalysis\n\n\n\nDEC25 slides and handout\n\n\n\n\n\nSep 28, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nSEL article is out!\n\n\n\nnews\n\npublications\n\nanalysis\n\n\n\nPublication\n\n\n\n\n\nJun 1, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nOdds ratio for EI exit by Dismissal\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 4: oddsratio()\n\n\n\n\n\nMar 3, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nEI exit patterns using corrplot package\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 3: corrplot()\n\n\n\n\n\nFeb 28, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nVisualizaing children served in EI\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 2: ggplot geom_bar()\n\n\n\n\n\nFeb 27, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nChildren served in EI: National and Oregon Data\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 1: kable()\n\n\n\n\n\nFeb 26, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualizations for Educational Equity\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 24, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To Maiko’s Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 23, 2025\n\n\nMaiko Hata\n\n\n\n\n\nNo matching items"
+    "text": "DEC25 Presentation - EI Exits\n\n\n\ndata visualization\n\nnews\n\nconference\n\nanalysis\n\n\n\nDEC25 slides and handout\n\n\n\n\n\nSep 28, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nSEL article is out!\n\n\n\nnews\n\npublications\n\nanalysis\n\n\n\nPublication\n\n\n\n\n\nJun 1, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nOdds ratio for EI exit by Dismissal\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 4: oddsratio()\n\n\n\n\n\nMar 3, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nEI exit patterns using corrplot package\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 3: corrplot()\n\n\n\n\n\nFeb 28, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nVisualizaing children served in EI\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 2: ggplot geom_bar()\n\n\n\n\n\nFeb 27, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nChildren served in EI: National and Oregon Data\n\n\n\ndata visualization\n\ncode\n\nanalysis\n\n\n\nVisualization 1: kable()\n\n\n\n\n\nFeb 26, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualizations for Educational Equity\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 24, 2025\n\n\nMaiko Hata\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To Maiko’s Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 23, 2025\n\n\nMaiko Hata\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -40,13 +40,6 @@
     "title": "DEC25 Presentation - EI Exits",
     "section": "",
     "text": "Thank you to everyone who joined me at DEC 2025 in Portland, OR! I hope you found the session meaningful and thought provoking. I’ve uploaded handout below, and I’d love to keep the conversation going! If you’d like a copy of the slides or have any questions or suggestions, please feel free to connect with me by email or LinkedIn. My CV is also available here. More data analyses will be added to this site soon, so please stay tuned. I am so thankful to share this journey with others like you who care deeply about equity in EI!　\n\nDownload my handout (summary with references)"
-  },
-  {
-    "objectID": "posts/2025_11_24_Quarto_slides/index.html",
-    "href": "posts/2025_11_24_Quarto_slides/index.html",
-    "title": "Machine Learning presentation",
-    "section": "",
-    "text": "I recently created a short machine learning (quarto) presentation using the AQ-10 screener dataset. I learned a lot about building models using Ridge, Lasso, and Elastic Net after cleaning the data, categorizing variables, and checking assumptions, an important reminder that thoughtful preprocessing is just as critical as the modeling itself.\nAs researchers, keeping an equity lens is always essential, but it feels especially important in machine learning where it’s easy to run models without fully understanding the data, variables, or real-world implications. You can view my presentation here."
   },
   {
     "objectID": "posts/viz_0/index.html",

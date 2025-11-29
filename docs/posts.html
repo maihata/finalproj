@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9d882aefbe6880e209bb4e231fcedeb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5b8f9b2f3cffee265242a5d44fbb1e00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -203,7 +204,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHZpc3VhbGl6YXRpb24=">data visualization <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cHVibGljYXRpb25z">publications <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHZpc3VhbGl6YXRpb24=">data visualization <span class="quarto-category-count">(5)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cHVibGljYXRpb25z">publications <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -217,43 +218,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNuZXdzJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDYW5hbHlzaXM=" data-listing-date-sort="1763971200000" data-listing-file-modified-sort="1763938643913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<div class="thumbnail"><a href="./posts/2025_11_24_Quarto_slides/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025_11_24_Quarto_slides/quarto_slide.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025_11_24_Quarto_slides/index.html" class="no-external">Machine Learning presentation</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHZpc3VhbGl6YXRpb24='); return false;">data visualization</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">machine learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">analysis</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2025_11_24_Quarto_slides/index.html" class="no-external">
-<p>Machine Learning implications</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025_11_24_Quarto_slides/index.html" class="no-external">
-<div class="listing-date">
-Nov 24, 2025
-</div>
-<div class="listing-author">
-Maiko Hata
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNuZXdzJTJDY29uZmVyZW5jZSUyQ2FuYWx5c2lz" data-listing-date-sort="1759042800000" data-listing-file-modified-sort="1762913642226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
+<div class="quarto-post image-right" data-index="0" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNuZXdzJTJDY29uZmVyZW5jZSUyQ2FuYWx5c2lz" data-listing-date-sort="1759042800000" data-listing-file-modified-sort="1762913642226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
 <div class="thumbnail"><a href="./posts/2025_9_28_DEC25_1/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025_9_28_DEC25_1/2025_9_DEC_1_cover.png" class="thumbnail-image">
@@ -289,7 +254,7 @@ Maiko Hata
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="bmV3cyUyQ3B1YmxpY2F0aW9ucyUyQ2FuYWx5c2lz" data-listing-date-sort="1748761200000" data-listing-file-modified-sort="1759112765804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ3B1YmxpY2F0aW9ucyUyQ2FuYWx5c2lz" data-listing-date-sort="1748761200000" data-listing-file-modified-sort="1759112765804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
 <div class="thumbnail"><a href="./posts/2025_6_SEL_article/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025_6_SEL_article/25_article_SEL.png" class="thumbnail-image">
@@ -323,7 +288,7 @@ Maiko Hata
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740988800000" data-listing-file-modified-sort="1758426813997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1272">
+<div class="quarto-post image-right" data-index="2" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740988800000" data-listing-file-modified-sort="1758426813997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1272">
 <div class="thumbnail"><a href="./posts/viz_4/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/viz_4/or_us_white_ci_timesnewroman.png" class="thumbnail-image">
@@ -357,7 +322,7 @@ Maiko Hata
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740729600000" data-listing-file-modified-sort="1759106915884" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="699">
+<div class="quarto-post image-right" data-index="3" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740729600000" data-listing-file-modified-sort="1759106915884" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="699">
 <div class="thumbnail"><a href="./posts/viz_3/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/viz_3/race and exit corrplot.jpg" class="thumbnail-image">
@@ -391,7 +356,7 @@ Maiko Hata
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740643200000" data-listing-file-modified-sort="1759107063680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1655">
+<div class="quarto-post image-right" data-index="4" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740643200000" data-listing-file-modified-sort="1759107063680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1655">
 <div class="thumbnail"><a href="./posts/viz_2/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/viz_2/plot_cc_2.jpg" class="thumbnail-image">
@@ -425,7 +390,7 @@ Maiko Hata
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740556800000" data-listing-file-modified-sort="1759106877732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280">
+<div class="quarto-post image-right" data-index="5" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNjb2RlJTJDYW5hbHlzaXM=" data-listing-date-sort="1740556800000" data-listing-file-modified-sort="1759106877732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280">
 <div class="thumbnail"><a href="./posts/viz_1/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/viz_1/kable.jpg" class="thumbnail-image">
@@ -459,7 +424,7 @@ Maiko Hata
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1740384000000" data-listing-file-modified-sort="1759106827473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="443">
+<div class="quarto-post image-right" data-index="6" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1740384000000" data-listing-file-modified-sort="1759106827473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="443">
 <div class="thumbnail"><a href="./posts/viz_0/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/viz_0/family_of_four.jpg" class="thumbnail-image">
@@ -493,7 +458,7 @@ Maiko Hata
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="bmV3cw==" data-listing-date-sort="1740297600000" data-listing-file-modified-sort="1762913283193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+<div class="quarto-post image-right" data-index="7" data-categories="bmV3cw==" data-listing-date-sort="1740297600000" data-listing-file-modified-sort="1762913283193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
 <div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
 
 <p class="card-img-top"><img src="images/uo.jpg" alt="University of Oregon in spring"  class="thumbnail-image card-img"/></p>
@@ -577,13 +542,14 @@ Maiko Hata
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
