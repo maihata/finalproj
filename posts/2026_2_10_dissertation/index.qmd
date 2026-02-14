@@ -1,0 +1,14 @@
+---
+title: "Dissertation defense success 🎓"
+description: ""
+author: "Maiko Hata"
+date: "2026-1-30"
+categories: [data visualization, news, analysis]
+image: "defense.png"
+---
+
+![](defense.png){fig-alt="Zoom screenshot of many people celebrating" fig-align="center" width="50%"}
+
+I successfully defended my dissertation today 🎓 A few years ago, I would not have believed this was possible. I did not even know what “defending a dissertation” meant. Because of professors, family, and friends who had absolute faith in me and kept saying, “of course you will,” I did. I am so truly grateful to everyone who guided me and cheered me on.\
+\
+My dissertation examines Early Intervention (EI) exit patterns, with a focus on “no contact” dismissal and “no longer eligible” (“EI graduation”) exits, using quantitative data from the U.S. and Oregon. As an EI specialist, I hate dismissing families when disengagement is shaped by systemic barriers, not a lack of need or effort. My findings reinforce that concern. Some populations were more than 2.13 times as likely to experience “no contact” dismissal compared to the national average, while others experienced substantially lower odds. These results point to the need for data equity, clearer procedures, and stronger, more culturally responsive practice. I'm excited to start sharing findings related to equity and systems improvement and welcoming opportunities to collaborate!
