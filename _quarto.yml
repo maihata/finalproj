@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Maiko Hata"
+  favicon: images/baby2.png
   navbar:
     collapse: true
     left:
@@ -11,8 +12,11 @@ website:
         href: index.qmd
       - text: About
         href: about.qmd 
-      - text: Projects & Workshops
+      - text: Projects
         href: posts.qmd
+      - text: Dashboard
+        href: https://maihata.shinyapps.io/exit_dashboard/
+        target: _blank
       - text: CV
         href: images/Maiko_CV_26.pdf
         target: _blank
