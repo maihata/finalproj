@@ -7,6 +7,8 @@ categories: [news, analysis, publications]
 image: "DDEL_email.png"
 ---
 
+![](Maiko_DDEL_award.png){fig-alt="A slide with a Japanese woman (Maiko) in Kimono with her research description" fig-align="center" width="50%"}
+
 I am genuinely honored and humbled to share that I received the Dissertation Award from the [Council for Exceptional Children (CEC)](https://www.linkedin.com/company/cechq/)'s Division on Diversity and Exceptional Learners.
 
 What made it even more special is having the privilege of listening to Dr. David Connor, one of the foundational scholars behind [DisCrit (Disability Critical Race Theory)](https://www.tcpress.com/products/discritdisability-studies-and-critical-race-theory-in-education_9780807756676#:~:text=DisCrit%E2%80%94Disability%20Studies%20and%20Critical,Education%209780807756676%20%7C%20Teachers%20College%20Press), a framework he developed with Drs. Annamma and Ferri. To be recognized on the same platform where Dr. Connor whose scholarship literally shaped the theoretical foundation of my dissertation, felt surreal.
