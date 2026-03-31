@@ -4,7 +4,7 @@ description: ""
 author: "Maiko Hata"
 date: "2026-3-13"
 categories: [news, analysis, publications]
-image: "DDEL_email.png"
+image: "Maiko_DDEL_award.png"
 ---
 
 ![](Maiko_DDEL_award.png){fig-alt="A slide with a Japanese woman (Maiko) in Kimono with her research description" fig-align="center" width="50%"}
