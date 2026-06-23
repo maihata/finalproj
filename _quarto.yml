@@ -11,7 +11,7 @@ website:
       - text: Home
         href: index.qmd
       - text: About
-        href: about.qmd 
+        href: about.qmd Maiko_
       - text: Projects
         href: posts.qmd
       - text: Dashboard
